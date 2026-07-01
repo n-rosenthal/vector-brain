@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ZID:      202607011206
+:ID:       6f479828-53bf-47af-acd4-a933fcd7ede2
+:END:
+#+title: README para o projeto =vector-brain=
+#+author: n-rosenthal
+
+=vector-brain= é a construção de um sistema paralelo ao =org-roam= para construir de uma base de conhecimentos e de desenvolvimento pessoal.
+Diversos documentos distintos são gerados possivelmente todos os dias: entradas de diário, notas de estudo, relatórios e pareceres, resumos, índices, listas, referências.
+Todos estes arquivos são documentos =.org= indexados por =org-roam= e têm seus atributos funcionais armazenados em =org-roam.db=.
+O projeto =vector-brain= busca aumentar as possibilidades do sistema atual através da introdução de um segundo banco de dados orientado à *vetorialização de documentos* para armazenamento de seus metadados e /embeddings/.
+
+Os /produtos/ esperados do projeto são
+1. possibilidade de *geração automática de novos documentos* (métodos RAG);
+2. *busca semântica* sobre os temas desenvolvidos;
+3. *integração com /large language models/ enquanto /memória particular/ e geração de /pipelines/ de /revisão-melhoramento-expansão/ dos documentos*;
+4. automatizar a recuperação de *métricas* e a geração de *análises* sobre *tópicos emergentes*, enumeração de *ligações ausentes* entre os tópicos de estudo;
+5. além disso:
+   1. tornar os meus estudos pessoais e a minha memória virtual um objeto de estudo e de análise para *aprender coisas novas* sobre Inteligência Artificial aplicada ao Processamento de Linguagem Natural, às Redes Neurais baseadas em Grafos e Observabilidade de Sistemas; e
+   2. *integrar* os meus estudos pessoais e a minha memória virtual *com a minha própria vida*, partindo de /um sistema no computador/ para uma /ferramenta real de melhoria da experiência vivida/.
+      
