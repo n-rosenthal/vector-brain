@@ -1,0 +1,70 @@
+:PROPERTIES:
+:ID:       d99017dd-12c2-43dc-8830-5fbb79c5d84d
+:ZID:      202607081540
+:END:
+#+title: Arquitetura do Projeto
+#+author: n-rosenthal
+#+PROPERTY: header-args:bash :mkdirp yes
+
+Este documento descreve e produz /scripts/ utilizados para iniciar o projeto. Conforme o projeto cresce, este documento também deverá crescer.
+
+O primeiro /script/, =make-directories.sh=, é responsável por criar todos os diretórios (/sic/) necessários ao projeto /até o presente momento./
+
+* Definindo Diretórios
+Vamos definir o /script/ =make-directories.sh=. O /script/ deverá
+1. definir uma lista de diretórios necessários ao projeto;
+2. verificar sua existência;
+3. criar os diretórios, caso não existam.
+
+Primeiro, vamos criar o diretório para os /scripts/:
+#+begin_src bash :shebang "#!/usr/bin/env bash" :results output
+mkdir scripts
+#+end_src
+
+#+RESULTS:
+
+Para cada diretório da lista, o /script/ verifica sua existência. Caso o diretório ainda não exista, ele é criado utilizando o comando ~mkdir -p~, que também cria diretórios intermediários quando necessário e não produz erro se o diretório já existir.
+
+#+name: make-directories
+#+begin_src bash :dir .. :results output
+set -euo pipefail
+
+directories=(
+    scripts
+    docs
+    data/raw
+    data/processed
+    reports
+    reports/figures
+    src
+    src/database
+    tests
+)
+
+for dir in "${directories[@]}"; do
+    mkdir -p "$dir"
+    echo "✓ $dir"
+done
+#+end_src
+
+#+RESULTS: make-directories
+: ✓ scripts
+: ✓ docs
+: ✓ data/raw
+: ✓ data/processed
+: ✓ reports
+: ✓ reports/figures
+: ✓ src
+: ✓ src/database
+: ✓ tests
+
+* Dependências
+#+name: vector-brain--requirements
+#+begin_src bash :dir ..
+cat << EOF > requirements.txt
+sentence-transformers>=3.0.0
+numpy>=1.26
+EOF
+#+end_src
+
+#+RESULTS: vector-brain--requirements

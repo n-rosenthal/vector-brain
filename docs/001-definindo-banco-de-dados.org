@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ZID:      202607081538
+:ID:       7611a3aa-5be6-4a3e-8632-e241c7e2f432
+:END:
+#+title: Definindo um Banco de Dados para o Projeto
+#+author: n-rosenthal
+
