@@ -33,6 +33,16 @@ def connect_readonly(db_path: Path) -> sqlite3.Connection:
     return sqlite3.connect(uri, uri=True)
 
 
+def _unquote_lisp_string(raw: str) -> str:
+    """Alguns bancos org-roam gravam certos campos de texto (ex: `file`)
+    já 'impressos' no formato Emacs Lisp, com aspas literais em volta e
+    aspas internas escapadas: "/caminho/arquivo.org" (com as aspas fazendo
+    parte da string salva no SQLite). Remove isso pra virar um path usável."""
+    if isinstance(raw, str) and len(raw) >= 2 and raw[0] == '"' and raw[-1] == '"':
+        return raw[1:-1].replace('\\"', '"').replace("\\\\", "\\")
+    return raw
+
+
 def fetch_nodes(conn: sqlite3.Connection) -> list[OrgNode]:
     cur = conn.cursor()
     cur.execute("""
@@ -53,8 +63,8 @@ def fetch_nodes(conn: sqlite3.Connection) -> list[OrgNode]:
         olp = _parse_elisp_list(olp_raw)
         nodes.append(OrgNode(
             node_id=node_id,
-            file=file,
-            title=title or "",
+            file=_unquote_lisp_string(file),
+            title=_unquote_lisp_string(title) or "",
             level=level,
             pos=pos,
             todo=todo,
