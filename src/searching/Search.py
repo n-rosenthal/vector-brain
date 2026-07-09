@@ -40,17 +40,11 @@ def load_all_embeddings(conn: sqlite3.Connection, model: str):
     return matrix, meta
 
 
-def search(query: str, top_k: int = 5):
-    from sentence_transformers import SentenceTransformer
-
-    model = SentenceTransformer(config.EMBEDDING_MODEL)
-    conn = sqlite3.connect(config.ORGBRAIN_DB)
-
-    matrix, meta = load_all_embeddings(conn, config.EMBEDDING_MODEL)
-    if matrix is None:
-        print("Nenhum embedding encontrado. Rode indexer.py primeiro.")
-        return []
-
+def search_core(query: str, model, matrix: np.ndarray, meta: list[dict], top_k: int = 5) -> list[dict]:
+    """Núcleo da busca semântica, recebendo modelo/matriz/metadados já
+    carregados. Separado de `search()` pra permitir reusar um modelo já
+    carregado em memória (ex: na API, onde recarregar o modelo a cada
+    request seria lento)."""
     q_text = f"query: {query}" if config.E5_STYLE_PREFIXES else query
     q_vec = model.encode([q_text], normalize_embeddings=True)[0]
 
@@ -64,6 +58,20 @@ def search(query: str, top_k: int = 5):
         m = meta[idx]
         results.append({**m, "score": float(scores[idx])})
     return results
+
+
+def search(query: str, top_k: int = 5):
+    from sentence_transformers import SentenceTransformer
+
+    model = SentenceTransformer(config.EMBEDDING_MODEL)
+    conn = sqlite3.connect(config.ORGBRAIN_DB)
+
+    matrix, meta = load_all_embeddings(conn, config.EMBEDDING_MODEL)
+    if matrix is None:
+        print("Nenhum embedding encontrado. Rode indexer.py primeiro.")
+        return []
+
+    return search_core(query, model, matrix, meta, top_k)
 
 
 def main():

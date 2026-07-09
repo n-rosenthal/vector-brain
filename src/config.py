@@ -25,6 +25,23 @@ EMBEDDING_MODEL = os.environ.get("VECTOR_BRAIN_MODEL", "intfloat/multilingual-e5
 # você roda o comando.
 SCHEMA_PATH = Path(__file__).parent / "database" / "schema.sql"
 
+# Padrões de caminho (fnmatch, ex: "*/log*", "*.log.org", "*/journal/*") a
+# EXCLUIR da indexação semântica. Útil pra arquivos gerados automaticamente
+# (changelogs, logs de git, journals sem prosa) que poluem o espaço de
+# embeddings sem agregar valor semântico. Vazio por padrão = indexa tudo.
+EXCLUDE_FILE_PATTERNS: list[str] = [
+    # "*/log*.org",
+]
+
+# --- API (opcional) ---
+API_HOST = os.environ.get("VECTOR_BRAIN_API_HOST", "127.0.0.1")
+API_PORT = int(os.environ.get("VECTOR_BRAIN_API_PORT", "8004"))
+# Se definida, a API exige o header `X-API-Key` com esse valor em toda
+# requisição (exceto /docs, /redoc, /openapi.json). None = sem autenticação,
+# adequado só pra uso 100% local (localhost). Defina isso antes de expor a
+# API pra outros dispositivos na rede.
+API_KEY = os.environ.get("VECTOR_BRAIN_API_KEY")
+
 # Tamanho alvo de chunk em caracteres (aprox). Nodes menores que isso
 # viram um chunk só; nodes maiores são divididos.
 CHUNK_TARGET_CHARS  = 1500

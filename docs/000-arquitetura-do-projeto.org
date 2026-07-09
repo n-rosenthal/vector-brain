@@ -31,13 +31,24 @@ set -euo pipefail
 
 directories=(
     scripts
+
+    # documentação, programação letrada
     docs
+
+    # dados
     data/raw
     data/processed
+
+    # relatórios gerados dinamicamente
     reports
     reports/figures
+
+    # código fonte
     src
     src/database
+    src/api
+
+    # testes
     tests
 )
 
@@ -48,15 +59,18 @@ done
 #+end_src
 
 #+RESULTS: make-directories
-: ✓ scripts
-: ✓ docs
-: ✓ data/raw
-: ✓ data/processed
-: ✓ reports
-: ✓ reports/figures
-: ✓ src
-: ✓ src/database
-: ✓ tests
+#+begin_example
+✓ scripts
+✓ docs
+✓ data/raw
+✓ data/processed
+✓ reports
+✓ reports/figures
+✓ src
+✓ src/database
+✓ src/api
+✓ tests
+#+end_example
 
 * Dependências
 #+name: vector-brain--requirements
@@ -64,7 +78,22 @@ done
 cat << EOF > requirements.txt
 sentence-transformers>=3.0.0
 numpy>=1.26
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.8
+plotly>=5.20
+fastapi>=0.110
+uvicorn>=0.29
+pytest
+httpx>=0.27
+umap-learn>=0.5
 EOF
 #+end_src
 
 #+RESULTS: vector-brain--requirements
+
+Antes de executar os programas, é necessário fazer:
+
+#+begin_src bash
+pip install -r requirements.txt --break-system-packages
+#+end_src
