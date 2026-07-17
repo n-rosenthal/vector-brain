@@ -1,0 +1,1639 @@
+[
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src",
+        "description": "src",
+        "isExtraImport": true,
+        "detail": "src",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src",
+        "description": "src",
+        "isExtraImport": true,
+        "detail": "src",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "src",
+        "description": "src",
+        "isExtraImport": true,
+        "detail": "src",
+        "documentation": {}
+    },
+    {
+        "label": "connect_readonly",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_nodes",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "nodes_with_text",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "split_into_chunks",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "connect_readonly",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_nodes",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "nodes_with_text",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "connect_readonly",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "nodes_with_text",
+        "importPath": "src.extractors",
+        "description": "src.extractors",
+        "isExtraImport": true,
+        "detail": "src.extractors",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Counter",
+        "importPath": "collections",
+        "description": "collections",
+        "isExtraImport": true,
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "tempfile",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "types",
+        "description": "types",
+        "detail": "types",
+        "documentation": {}
+    },
+    {
+        "label": "FakeSentenceTransformer",
+        "importPath": "FakeEmbeddings",
+        "description": "FakeEmbeddings",
+        "isExtraImport": true,
+        "detail": "FakeEmbeddings",
+        "documentation": {}
+    },
+    {
+        "label": "FakeSentenceTransformer",
+        "importPath": "FakeEmbeddings",
+        "description": "FakeEmbeddings",
+        "isExtraImport": true,
+        "detail": "FakeEmbeddings",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "importPath": "src.indexing",
+        "description": "src.indexing",
+        "isExtraImport": true,
+        "detail": "src.indexing",
+        "documentation": {}
+    },
+    {
+        "label": "# noqa: E402\n    load_embeddings_dataframe",
+        "importPath": "src.visualization",
+        "description": "src.visualization",
+        "isExtraImport": true,
+        "detail": "src.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_embedding_map_static",
+        "importPath": "src.visualization",
+        "description": "src.visualization",
+        "isExtraImport": true,
+        "detail": "src.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_embedding_map_interactive",
+        "importPath": "src.visualization",
+        "description": "src.visualization",
+        "isExtraImport": true,
+        "detail": "src.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "plot_corpus_stats",
+        "importPath": "src.visualization",
+        "description": "src.visualization",
+        "isExtraImport": true,
+        "detail": "src.visualization",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "scripts.diagnose_indexing",
+        "description": "scripts.diagnose_indexing",
+        "peekOfCode": "def main():\n    conn = connect_readonly(config.ORG_ROAM_DB)\n    print(f\"ORG_ROAM_DB = {config.ORG_ROAM_DB}\\n\")\n    nodes = fetch_nodes(conn)\n    print(f\"{len(nodes)} nodes lidos da tabela `nodes`.\\n\")\n    # 1. quantos arquivos referenciados pelos nodes existem de fato no disco?\n    unique_files = {n.file for n in nodes}\n    missing = [f for f in unique_files if not Path(f).exists()]\n    print(f\"{len(unique_files)} arquivos únicos referenciados.\")\n    print(f\"{len(missing)} desses arquivos NÃO existem no caminho salvo no banco.\\n\")",
+        "detail": "scripts.diagnose_indexing",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "src.api.App",
+        "description": "src.api.App",
+        "peekOfCode": "def create_app() -> FastAPI:\n    app = FastAPI(\n        title=\"vector-brain API\",\n        description=(\n            \"API somente-leitura sobre a base org-roam indexada: busca \"\n            \"semântica, navegação por nodes/tags e estatísticas do corpus.\"\n        ),\n        version=\"0.1.0\",\n    )\n    # CORS liberado por padrão pra facilitar uso local (ex: um frontend",
+        "detail": "src.api.App",
+        "documentation": {}
+    },
+    {
+        "label": "_PUBLIC_PATHS",
+        "kind": 5,
+        "importPath": "src.api.App",
+        "description": "src.api.App",
+        "peekOfCode": "_PUBLIC_PATHS = {\"/docs\", \"/redoc\", \"/openapi.json\"}\ndef create_app() -> FastAPI:\n    app = FastAPI(\n        title=\"vector-brain API\",\n        description=(\n            \"API somente-leitura sobre a base org-roam indexada: busca \"\n            \"semântica, navegação por nodes/tags e estatísticas do corpus.\"\n        ),\n        version=\"0.1.0\",\n    )",
+        "detail": "src.api.App",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "src.api.App",
+        "description": "src.api.App",
+        "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n    import uvicorn\n    uvicorn.run(app, host=config.API_HOST, port=config.API_PORT)",
+        "detail": "src.api.App",
+        "documentation": {}
+    },
+    {
+        "label": "get_org_roam_conn",
+        "kind": 2,
+        "importPath": "src.api.Dependencies",
+        "description": "src.api.Dependencies",
+        "peekOfCode": "def get_org_roam_conn():\n    conn = connect_readonly(config.ORG_ROAM_DB)\n    try:\n        yield conn\n    finally:\n        conn.close()\ndef get_orgbrain_conn():\n    conn = sqlite3.connect(config.ORGBRAIN_DB)\n    try:\n        yield conn",
+        "detail": "src.api.Dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_orgbrain_conn",
+        "kind": 2,
+        "importPath": "src.api.Dependencies",
+        "description": "src.api.Dependencies",
+        "peekOfCode": "def get_orgbrain_conn():\n    conn = sqlite3.connect(config.ORGBRAIN_DB)\n    try:\n        yield conn\n    finally:\n        conn.close()\n@lru_cache(maxsize=1)\ndef get_embedding_model():\n    from sentence_transformers import SentenceTransformer\n    return SentenceTransformer(config.EMBEDDING_MODEL)",
+        "detail": "src.api.Dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding_model",
+        "kind": 2,
+        "importPath": "src.api.Dependencies",
+        "description": "src.api.Dependencies",
+        "peekOfCode": "def get_embedding_model():\n    from sentence_transformers import SentenceTransformer\n    return SentenceTransformer(config.EMBEDDING_MODEL)",
+        "detail": "src.api.Dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def health():\n    return HealthStatus(\n        status=\"ok\",\n        org_roam_db_found=config.ORG_ROAM_DB.exists(),\n        orgbrain_db_found=config.ORGBRAIN_DB.exists(),\n        org_roam_db_path=str(config.ORG_ROAM_DB),\n        orgbrain_db_path=str(config.ORGBRAIN_DB),\n    )\n@router.get(\"/nodes\", response_model=list[NodeOut], tags=[\"nodes\"])\ndef list_nodes(",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "list_nodes",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def list_nodes(\n    tag: Optional[str] = Query(None, description=\"filtra nodes que tenham essa tag exata\"),\n    file: Optional[str] = Query(None, description=\"filtra por substring do caminho do arquivo\"),\n    limit: int = Query(50, ge=1, le=500),\n    offset: int = Query(0, ge=0),\n    conn: sqlite3.Connection = Depends(get_orgbrain_conn),\n):\n    conn.row_factory = sqlite3.Row\n    rows = conn.execute(\"SELECT * FROM indexed_nodes ORDER BY title\").fetchall()\n    result = [_row_to_node_out(r) for r in rows]",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_node",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def get_node(node_id: str, conn: sqlite3.Connection = Depends(get_orgbrain_conn)):\n    conn.row_factory = sqlite3.Row\n    row = conn.execute(\"SELECT * FROM indexed_nodes WHERE node_id = ?\", (node_id,)).fetchone()\n    if row is None:\n        raise HTTPException(status_code=404, detail=\"node não encontrado na base indexada\")\n    chunk_rows = conn.execute(\n        \"SELECT chunk_index, text, token_count FROM chunks WHERE node_id = ? ORDER BY chunk_index\",\n        (node_id,),\n    ).fetchall()\n    chunks = [",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "list_tags",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def list_tags(conn: sqlite3.Connection = Depends(get_orgbrain_conn)):\n    rows = conn.execute(\"SELECT tags FROM indexed_nodes\").fetchall()\n    counter: Counter[str] = Counter()\n    for (tags_json,) in rows:\n        counter.update(_parse_json_list(tags_json))\n    return [TagCount(tag=t, count=c) for t, c in counter.most_common()]\n@router.get(\"/search\", response_model=list[SearchResultOut], tags=[\"search\"])\ndef search_endpoint(\n    q: str = Query(..., min_length=1, description=\"query de busca semântica\"),\n    top_k: int = Query(5, ge=1, le=50),",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "search_endpoint",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def search_endpoint(\n    q: str = Query(..., min_length=1, description=\"query de busca semântica\"),\n    top_k: int = Query(5, ge=1, le=50),\n    conn: sqlite3.Connection = Depends(get_orgbrain_conn),\n    model=Depends(get_embedding_model),\n):\n    matrix, meta = load_all_embeddings(conn, config.EMBEDDING_MODEL)\n    if matrix is None:\n        return []\n    results = search_core(q, model, matrix, meta, top_k)",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "stats",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def stats(conn: sqlite3.Connection = Depends(get_orgbrain_conn)):\n    total_nodes = conn.execute(\"SELECT COUNT(*) FROM indexed_nodes\").fetchone()[0]\n    total_chunks = conn.execute(\"SELECT COUNT(*) FROM chunks\").fetchone()[0]\n    total_embeddings = conn.execute(\"SELECT COUNT(*) FROM embeddings\").fetchone()[0]\n    tag_rows = conn.execute(\"SELECT tags FROM indexed_nodes\").fetchall()\n    tag_counter: Counter[str] = Counter()\n    for (tags_json,) in tag_rows:\n        tag_counter.update(_parse_json_list(tags_json))\n    top_tags = [TagCount(tag=t, count=c) for t, c in tag_counter.most_common(10)]\n    file_rows = conn.execute(\"SELECT file FROM indexed_nodes\").fetchall()",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_embedding",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def get_embedding(\n    chunk_id: int,\n    conn: sqlite3.Connection = Depends(get_orgbrain_conn),\n):\n    embedding = embedding_by_chunk(conn, chunk_id)\n    if embedding is None:\n        raise HTTPException(\n            status_code=404,\n            detail=\"embedding não encontrado\",\n        )",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "embedding_neighbors",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def embedding_neighbors(\n    chunk_id: int,\n    k: int = Query(10, ge=1, le=100),\n    conn: sqlite3.Connection = Depends(get_orgbrain_conn),\n):\n    return nearest_neighbors(\n        conn=conn,\n        chunk_id=chunk_id,\n        k=k,\n    )",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "embed_query",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def embed_query(\n    query: EmbeddingQuery,\n    model=Depends(get_embedding_model),\n):\n    vector = encode_text(\n        model=model,\n        text=query.text,\n    )\n    return EmbeddingQueryResult(\n        model=config.EMBEDDING_MODEL,",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "similarity_endpoint",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def similarity_endpoint(\n    query: SimilarityQuery,\n    model=Depends(get_embedding_model),\n):\n    similarity = similarity_between_texts(\n        model=model,\n        text_a=query.text_a,\n        text_b=query.text_b,\n    )\n    return SimilarityResult(",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "router = APIRouter()\ndef _parse_json_list(raw) -> list[str]:\n    if not raw:\n        return []\n    try:\n        return json.loads(raw)\n    except (json.JSONDecodeError, TypeError):\n        return []\ndef _row_to_node_out(row: sqlite3.Row) -> NodeOut:\n    return NodeOut(",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "NodeOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class NodeOut(BaseModel):\n    node_id: str\n    title: str\n    file: str\n    olp: list[str] = Field(default_factory=list)\n    todo: Optional[str] = None\n    tags: list[str] = Field(default_factory=list)\n    indexed_at: str\nclass ChunkOut(BaseModel):\n    chunk_index: int",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ChunkOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class ChunkOut(BaseModel):\n    chunk_index: int\n    text: str\n    token_count: Optional[int] = None\nclass NodeDetail(NodeOut):\n    chunks: list[ChunkOut] = Field(default_factory=list)\n# ============================================================\n# Search\n# ============================================================\nclass SearchResultOut(BaseModel):",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "NodeDetail",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class NodeDetail(NodeOut):\n    chunks: list[ChunkOut] = Field(default_factory=list)\n# ============================================================\n# Search\n# ============================================================\nclass SearchResultOut(BaseModel):\n    node_id: str\n    title: str\n    file: str\n    score: float",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SearchResultOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class SearchResultOut(BaseModel):\n    node_id: str\n    title: str\n    file: str\n    score: float\n    snippet: str\n# ============================================================\n# Embeddings\n# ============================================================\nclass EmbeddingOut(BaseModel):",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class EmbeddingOut(BaseModel):\n    chunk_id: int\n    model: str\n    dimension: int\n    vector: list[float]\nclass EmbeddingQuery(BaseModel):\n    text: str\nclass EmbeddingQueryResult(BaseModel):\n    model: str\n    dimension: int",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingQuery",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class EmbeddingQuery(BaseModel):\n    text: str\nclass EmbeddingQueryResult(BaseModel):\n    model: str\n    dimension: int\n    vector: list[float]\nclass SimilarityQuery(BaseModel):\n    text_a: str\n    text_b: str\nclass SimilarityResult(BaseModel):",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "EmbeddingQueryResult",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class EmbeddingQueryResult(BaseModel):\n    model: str\n    dimension: int\n    vector: list[float]\nclass SimilarityQuery(BaseModel):\n    text_a: str\n    text_b: str\nclass SimilarityResult(BaseModel):\n    cosine_similarity: float\n    euclidean_distance: float",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SimilarityQuery",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class SimilarityQuery(BaseModel):\n    text_a: str\n    text_b: str\nclass SimilarityResult(BaseModel):\n    cosine_similarity: float\n    euclidean_distance: float\n    dot_product: float\nclass NeighborOut(BaseModel):\n    chunk_id: int\n    node_id: str",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "SimilarityResult",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class SimilarityResult(BaseModel):\n    cosine_similarity: float\n    euclidean_distance: float\n    dot_product: float\nclass NeighborOut(BaseModel):\n    chunk_id: int\n    node_id: str\n    title: str\n    file: str\n    score: float",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "NeighborOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class NeighborOut(BaseModel):\n    chunk_id: int\n    node_id: str\n    title: str\n    file: str\n    score: float\n# ============================================================\n# Metadata\n# ============================================================\nclass TagCount(BaseModel):",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "TagCount",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class TagCount(BaseModel):\n    tag: str\n    count: int\nclass FileCount(BaseModel):\n    file: str\n    count: int\nclass IndexRunOut(BaseModel):\n    started_at: str\n    finished_at: Optional[str] = None\n    nodes_seen: Optional[int] = None",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "FileCount",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class FileCount(BaseModel):\n    file: str\n    count: int\nclass IndexRunOut(BaseModel):\n    started_at: str\n    finished_at: Optional[str] = None\n    nodes_seen: Optional[int] = None\n    nodes_updated: Optional[int] = None\n    chunks_embedded: Optional[int] = None\n    model: Optional[str] = None",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "IndexRunOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class IndexRunOut(BaseModel):\n    started_at: str\n    finished_at: Optional[str] = None\n    nodes_seen: Optional[int] = None\n    nodes_updated: Optional[int] = None\n    chunks_embedded: Optional[int] = None\n    model: Optional[str] = None\nclass CorpusStats(BaseModel):\n    total_nodes: int\n    total_chunks: int",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CorpusStats",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class CorpusStats(BaseModel):\n    total_nodes: int\n    total_chunks: int\n    total_embeddings: int\n    embedding_model: str\n    top_tags: list[TagCount]\n    top_files: list[FileCount]\n    last_index_run: Optional[IndexRunOut] = None\nclass HealthStatus(BaseModel):\n    status: str",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "HealthStatus",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class HealthStatus(BaseModel):\n    status: str\n    org_roam_db_found: bool\n    orgbrain_db_found: bool\n    org_roam_db_path: str\n    orgbrain_db_path: str",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "split_into_chunks",
+        "kind": 2,
+        "importPath": "src.extractors.Chunking",
+        "description": "src.extractors.Chunking",
+        "peekOfCode": "def split_into_chunks(text: str) -> list[str]:\n    text = text.strip()\n    if not text:\n        return []\n    if len(text) <= CHUNK_TARGET_CHARS:\n        return [text]\n    chunks = []\n    start = 0\n    n = len(text)\n    while start < n:",
+        "detail": "src.extractors.Chunking",
+        "documentation": {}
+    },
+    {
+        "label": "OrgNode",
+        "kind": 6,
+        "importPath": "src.extractors.OrgReader",
+        "description": "src.extractors.OrgReader",
+        "peekOfCode": "class OrgNode:\n    node_id: str\n    file: str\n    title: str\n    level: int\n    pos: int\n    todo: str | None\n    olp: list[str]\n    tags: list[str]\ndef connect_readonly(db_path: Path) -> sqlite3.Connection:",
+        "detail": "src.extractors.OrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "connect_readonly",
+        "kind": 2,
+        "importPath": "src.extractors.OrgReader",
+        "description": "src.extractors.OrgReader",
+        "peekOfCode": "def connect_readonly(db_path: Path) -> sqlite3.Connection:\n    # mode=ro garante que nunca escrevemos acidentalmente no org-roam.db\n    uri = f\"file:{db_path}?mode=ro\"\n    return sqlite3.connect(uri, uri=True)\ndef _unquote_lisp_string(raw: str) -> str:\n    \"\"\"Alguns bancos org-roam gravam certos campos de texto (ex: `file`)\n    já 'impressos' no formato Emacs Lisp, com aspas literais em volta e\n    aspas internas escapadas: \"/caminho/arquivo.org\" (com as aspas fazendo\n    parte da string salva no SQLite). Remove isso pra virar um path usável.\"\"\"\n    if isinstance(raw, str) and len(raw) >= 2 and raw[0] == '\"' and raw[-1] == '\"':",
+        "detail": "src.extractors.OrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_nodes",
+        "kind": 2,
+        "importPath": "src.extractors.OrgReader",
+        "description": "src.extractors.OrgReader",
+        "peekOfCode": "def fetch_nodes(conn: sqlite3.Connection) -> list[OrgNode]:\n    cur = conn.cursor()\n    cur.execute(\"\"\"\n        SELECT id, file, title, level, pos, todo, olp\n        FROM nodes\n        ORDER BY file, pos\n    \"\"\")\n    rows = cur.fetchall()\n    # tags ficam em tabela separada\n    cur.execute(\"SELECT node_id, tag FROM tags\")",
+        "detail": "src.extractors.OrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "extract_subtree_text",
+        "kind": 2,
+        "importPath": "src.extractors.OrgReader",
+        "description": "src.extractors.OrgReader",
+        "peekOfCode": "def extract_subtree_text(node: OrgNode, next_pos_same_file: int | None) -> str:\n    \"\"\"Lê o arquivo e retorna o texto do subtree deste node.\"\"\"\n    path = Path(node.file)\n    if not path.exists():\n        return \"\"\n    raw = path.read_text(encoding=\"utf-8\", errors=\"replace\")\n    start = node.pos - 1  # org-roam pos é 1-indexed\n    end = next_pos_same_file - 1 if next_pos_same_file is not None else len(raw)\n    text = raw[start:end]\n    # Remove a linha do headline em si (já temos o title separado) e a",
+        "detail": "src.extractors.OrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "nodes_with_text",
+        "kind": 2,
+        "importPath": "src.extractors.OrgReader",
+        "description": "src.extractors.OrgReader",
+        "peekOfCode": "def nodes_with_text(conn: sqlite3.Connection) -> list[tuple[OrgNode, str]]:\n    \"\"\"Retorna todos os nodes junto com seu texto de subtree extraído.\"\"\"\n    nodes = fetch_nodes(conn)\n    # agrupa por arquivo, mantendo ordem por pos, para achar o \"próximo pos\"\n    by_file: dict[str, list[OrgNode]] = {}\n    for n in nodes:\n        by_file.setdefault(n.file, []).append(n)\n    result = []\n    for file, file_nodes in by_file.items():\n        for i, node in enumerate(file_nodes):",
+        "detail": "src.extractors.OrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "content_hash",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def content_hash(text: str) -> str:\n    return hashlib.sha256(text.encode(\"utf-8\")).hexdigest()\ndef init_orgbrain_db(conn: sqlite3.Connection):\n    schema = config.SCHEMA_PATH.read_text(encoding=\"utf-8\")\n    conn.executescript(schema)\n    conn.commit()\ndef get_existing_hashes(conn: sqlite3.Connection) -> dict[str, str]:\n    cur = conn.execute(\"SELECT node_id, content_hash FROM indexed_nodes\")\n    return dict(cur.fetchall())\ndef upsert_node(conn: sqlite3.Connection, node, text_hash: str):",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "init_orgbrain_db",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def init_orgbrain_db(conn: sqlite3.Connection):\n    schema = config.SCHEMA_PATH.read_text(encoding=\"utf-8\")\n    conn.executescript(schema)\n    conn.commit()\ndef get_existing_hashes(conn: sqlite3.Connection) -> dict[str, str]:\n    cur = conn.execute(\"SELECT node_id, content_hash FROM indexed_nodes\")\n    return dict(cur.fetchall())\ndef upsert_node(conn: sqlite3.Connection, node, text_hash: str):\n    conn.execute(\"\"\"\n        INSERT INTO indexed_nodes (node_id, file, title, olp, todo, tags, content_hash, mtime, indexed_at)",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "get_existing_hashes",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def get_existing_hashes(conn: sqlite3.Connection) -> dict[str, str]:\n    cur = conn.execute(\"SELECT node_id, content_hash FROM indexed_nodes\")\n    return dict(cur.fetchall())\ndef upsert_node(conn: sqlite3.Connection, node, text_hash: str):\n    conn.execute(\"\"\"\n        INSERT INTO indexed_nodes (node_id, file, title, olp, todo, tags, content_hash, mtime, indexed_at)\n        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)\n        ON CONFLICT(node_id) DO UPDATE SET\n            file=excluded.file, title=excluded.title, olp=excluded.olp,\n            todo=excluded.todo, tags=excluded.tags,",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "upsert_node",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def upsert_node(conn: sqlite3.Connection, node, text_hash: str):\n    conn.execute(\"\"\"\n        INSERT INTO indexed_nodes (node_id, file, title, olp, todo, tags, content_hash, mtime, indexed_at)\n        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)\n        ON CONFLICT(node_id) DO UPDATE SET\n            file=excluded.file, title=excluded.title, olp=excluded.olp,\n            todo=excluded.todo, tags=excluded.tags,\n            content_hash=excluded.content_hash, mtime=excluded.mtime,\n            indexed_at=excluded.indexed_at\n    \"\"\", (",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "replace_chunks",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def replace_chunks(conn: sqlite3.Connection, node_id: str, chunks: list[str]) -> list[int]:\n    conn.execute(\"DELETE FROM chunks WHERE node_id = ?\", (node_id,))\n    ids = []\n    for i, text in enumerate(chunks):\n        cur = conn.execute(\n            \"INSERT INTO chunks (node_id, chunk_index, text, token_count) VALUES (?, ?, ?, ?)\",\n            (node_id, i, text, len(text.split())),\n        )\n        ids.append(cur.lastrowid)\n    return ids",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "store_embeddings",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def store_embeddings(conn: sqlite3.Connection, chunk_ids: list[int], vectors: np.ndarray, model: str):\n    for chunk_id, vec in zip(chunk_ids, vectors):\n        conn.execute(\"\"\"INSERT INTO embeddings (\n    chunk_id,\n    model,\n    dim,\n    normalized,\n    dtype,\n    created_at,\n    vector",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "embed_texts",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def embed_texts(model, texts: list[str]) -> np.ndarray:\n    if config.E5_STYLE_PREFIXES:\n        texts = [f\"passage: {t}\" for t in texts]\n    return model.encode(texts, normalize_embeddings=True, show_progress_bar=False)\ndef main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--force\", action=\"store_true\", help=\"reembeda tudo, ignora cache de hash\")\n    parser.add_argument(\"--limit\", type=int, default=None,\n                         help=\"indexa só os N primeiros nodes (pra testar antes de rodar na base inteira)\")\n    args = parser.parse_args()",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.indexing.Indexer",
+        "description": "src.indexing.Indexer",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--force\", action=\"store_true\", help=\"reembeda tudo, ignora cache de hash\")\n    parser.add_argument(\"--limit\", type=int, default=None,\n                         help=\"indexa só os N primeiros nodes (pra testar antes de rodar na base inteira)\")\n    args = parser.parse_args()\n    from sentence_transformers import SentenceTransformer\n    print(f\"Carregando modelo {config.EMBEDDING_MODEL}...\")\n    model = SentenceTransformer(config.EMBEDDING_MODEL)\n    roam_conn = connect_readonly(config.ORG_ROAM_DB)",
+        "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "StoredEmbedding",
+        "kind": 6,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "class StoredEmbedding:\n    chunk_id: int\n    model: str\n    dimension: int\n    vector: np.ndarray\n# ==========================================================\n# Conversão\n# ==========================================================\ndef _bytes_to_vector(blob: bytes) -> np.ndarray:\n    \"\"\"",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "encode_text",
+        "kind": 2,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "def encode_text(model, text: str) -> np.ndarray:\n    \"\"\"\n    Gera embedding normalizado de um texto.\n    \"\"\"\n    vector = model.encode(\n        [text],\n        normalize_embeddings=True,\n        show_progress_bar=False,\n    )[0]\n    return vector.astype(np.float32)",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "embedding_by_chunk",
+        "kind": 2,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "def embedding_by_chunk(\n    conn: sqlite3.Connection,\n    chunk_id: int,\n) -> StoredEmbedding | None:\n    row = conn.execute(\n        \"\"\"\n        SELECT\n            chunk_id,\n            model,\n            dim,",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "kind": 2,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "def cosine_similarity(\n    a: np.ndarray,\n    b: np.ndarray,\n) -> float:\n    return float(np.dot(a, b))\ndef euclidean_distance(\n    a: np.ndarray,\n    b: np.ndarray,\n) -> float:\n    return float(np.linalg.norm(a - b))",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "euclidean_distance",
+        "kind": 2,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "def euclidean_distance(\n    a: np.ndarray,\n    b: np.ndarray,\n) -> float:\n    return float(np.linalg.norm(a - b))\ndef similarity_between_texts(\n    model,\n    text_a: str,\n    text_b: str,\n):",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "similarity_between_texts",
+        "kind": 2,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "def similarity_between_texts(\n    model,\n    text_a: str,\n    text_b: str,\n):\n    va = encode_text(model, text_a)\n    vb = encode_text(model, text_b)\n    return {\n        \"cosine_similarity\": cosine_similarity(va, vb),\n        \"euclidean_distance\": euclidean_distance(va, vb),",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "load_all_embeddings",
+        "kind": 2,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "def load_all_embeddings(\n    conn: sqlite3.Connection,\n    model_name: str,\n):\n    \"\"\"\n    Carrega todos os embeddings de um determinado modelo.\n    Retorna\n        matriz\n        metadados\n    \"\"\"",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "nearest_neighbors",
+        "kind": 2,
+        "importPath": "src.searching.Embeddings",
+        "description": "src.searching.Embeddings",
+        "peekOfCode": "def nearest_neighbors(\n    conn: sqlite3.Connection,\n    chunk_id: int,\n    k: int = 10,\n):\n    row = embedding_by_chunk(conn, chunk_id)\n    if row is None:\n        return []\n    matrix, metadata = load_all_embeddings(\n        conn,",
+        "detail": "src.searching.Embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "load_all_embeddings",
+        "kind": 2,
+        "importPath": "src.searching.Search",
+        "description": "src.searching.Search",
+        "peekOfCode": "def load_all_embeddings(conn: sqlite3.Connection, model: str):\n    cur = conn.execute(\"\"\"\n        SELECT e.chunk_id, e.vector, e.dim, c.text, c.node_id,\n               n.title, n.file, n.olp, n.tags, n.todo\n        FROM embeddings e\n        JOIN chunks c ON c.id = e.chunk_id\n        JOIN indexed_nodes n ON n.node_id = c.node_id\n        WHERE e.model = ?\n    \"\"\", (model,))\n    rows = cur.fetchall()",
+        "detail": "src.searching.Search",
+        "documentation": {}
+    },
+    {
+        "label": "search_core",
+        "kind": 2,
+        "importPath": "src.searching.Search",
+        "description": "src.searching.Search",
+        "peekOfCode": "def search_core(query: str, model, matrix: np.ndarray, meta: list[dict], top_k: int = 5) -> list[dict]:\n    \"\"\"Núcleo da busca semântica, recebendo modelo/matriz/metadados já\n    carregados. Separado de `search()` pra permitir reusar um modelo já\n    carregado em memória (ex: na API, onde recarregar o modelo a cada\n    request seria lento).\"\"\"\n    q_text = f\"query: {query}\" if config.E5_STYLE_PREFIXES else query\n    q_vec = model.encode([q_text], normalize_embeddings=True)[0]\n    # matrix já vem normalizada (normalize_embeddings=True na indexação),\n    # então o produto escalar é a similaridade de cosseno.\n    scores = matrix @ q_vec",
+        "detail": "src.searching.Search",
+        "documentation": {}
+    },
+    {
+        "label": "search",
+        "kind": 2,
+        "importPath": "src.searching.Search",
+        "description": "src.searching.Search",
+        "peekOfCode": "def search(query: str, top_k: int = 5):\n    from sentence_transformers import SentenceTransformer\n    model = SentenceTransformer(config.EMBEDDING_MODEL)\n    conn = sqlite3.connect(config.ORGBRAIN_DB)\n    matrix, meta = load_all_embeddings(conn, config.EMBEDDING_MODEL)\n    if matrix is None:\n        print(\"Nenhum embedding encontrado. Rode indexer.py primeiro.\")\n        return []\n    return search_core(query, model, matrix, meta, top_k)\ndef main():",
+        "detail": "src.searching.Search",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.searching.Search",
+        "description": "src.searching.Search",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"query\")\n    parser.add_argument(\"--top\", type=int, default=5)\n    args = parser.parse_args()\n    results = search(args.query, args.top)\n    for r in results:\n        print(f\"\\n[{r['score']:.3f}] {r['title']}  ({r['file']})\")\n        snippet = r[\"text\"][:200].replace(\"\\n\", \" \")\n        print(f\"    {snippet}...\")",
+        "detail": "src.searching.Search",
+        "documentation": {}
+    },
+    {
+        "label": "load_embeddings_dataframe",
+        "kind": 2,
+        "importPath": "src.visualization.Visualize",
+        "description": "src.visualization.Visualize",
+        "peekOfCode": "def load_embeddings_dataframe(conn: sqlite3.Connection, model: str) -> pd.DataFrame:\n    \"\"\"Carrega embeddings por chunk e agrega em 1 vetor por node (média dos\n    chunks), já que pra visualizar o 'mapa das notas' faz mais sentido\n    1 ponto = 1 node do que 1 ponto = 1 chunk.\"\"\"\n    matrix, meta = load_all_embeddings(conn, model)\n    if matrix is None:\n        return pd.DataFrame()\n    df = pd.DataFrame(meta)\n    df[\"vector\"] = list(matrix)\n    def _first_tag(tags_json):",
+        "detail": "src.visualization.Visualize",
+        "documentation": {}
+    },
+    {
+        "label": "plot_embedding_map_static",
+        "kind": 2,
+        "importPath": "src.visualization.Visualize",
+        "description": "src.visualization.Visualize",
+        "peekOfCode": "def plot_embedding_map_static(df: pd.DataFrame, method: str = \"pca\", out_path: Path | None = None) -> Path:\n    import matplotlib.pyplot as plt\n    out_path = out_path or (FIGURES_DIR / \"embedding_map.png\")\n    out_path.parent.mkdir(parents=True, exist_ok=True)\n    vectors = np.vstack(df[\"vector\"].values)\n    coords = _project_2d(vectors, method)\n    df = df.assign(x=coords[:, 0], y=coords[:, 1])\n    fig, ax = plt.subplots(figsize=(10, 8))\n    tags = df[\"primary_tag\"].unique()\n    cmap = plt.colormaps.get_cmap(\"tab20\").resampled(max(len(tags), 1))",
+        "detail": "src.visualization.Visualize",
+        "documentation": {}
+    },
+    {
+        "label": "plot_embedding_map_interactive",
+        "kind": 2,
+        "importPath": "src.visualization.Visualize",
+        "description": "src.visualization.Visualize",
+        "peekOfCode": "def plot_embedding_map_interactive(df: pd.DataFrame, method: str = \"pca\", out_path: Path | None = None) -> Path | None:\n    try:\n        import plotly.express as px\n    except ImportError:\n        print(\"plotly não instalado (`pip install plotly`), pulando versão interativa.\")\n        return None\n    out_path = out_path or (FIGURES_DIR / \"embedding_map.html\")\n    out_path.parent.mkdir(parents=True, exist_ok=True)\n    vectors = np.vstack(df[\"vector\"].values)\n    coords = _project_2d(vectors, method)",
+        "detail": "src.visualization.Visualize",
+        "documentation": {}
+    },
+    {
+        "label": "plot_corpus_stats",
+        "kind": 2,
+        "importPath": "src.visualization.Visualize",
+        "description": "src.visualization.Visualize",
+        "peekOfCode": "def plot_corpus_stats(df: pd.DataFrame, out_path: Path | None = None, top_n: int = 15) -> Path:\n    import matplotlib.pyplot as plt\n    out_path = out_path or (FIGURES_DIR / \"corpus_stats.png\")\n    out_path.parent.mkdir(parents=True, exist_ok=True)\n    fig, axes = plt.subplots(1, 2, figsize=(14, 6))\n    tag_counts = Counter(df[\"primary_tag\"]).most_common(top_n)\n    if tag_counts:\n        labels, counts = zip(*tag_counts)\n        axes[0].barh(labels[::-1], counts[::-1], color=\"#4C72B0\")\n    axes[0].set_title(\"Tags mais frequentes (tag primária por node)\")",
+        "detail": "src.visualization.Visualize",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.visualization.Visualize",
+        "description": "src.visualization.Visualize",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--method\", choices=[\"pca\", \"tsne\", \"umap\"], default=\"pca\",\n                         help=\"algoritmo de projeção 2D (padrão: pca, mais rápido e estável)\")\n    args = parser.parse_args()\n    conn = sqlite3.connect(config.ORGBRAIN_DB)\n    df = load_embeddings_dataframe(conn, config.EMBEDDING_MODEL)\n    if df.empty:\n        print(\"Nenhum embedding encontrado. Rode a indexação primeiro (python -m src.indexing.Indexer).\")\n        return",
+        "detail": "src.visualization.Visualize",
+        "documentation": {}
+    },
+    {
+        "label": "FIGURES_DIR",
+        "kind": 5,
+        "importPath": "src.visualization.Visualize",
+        "description": "src.visualization.Visualize",
+        "peekOfCode": "FIGURES_DIR = Path(__file__).resolve().parents[2] / \"reports\" / \"figures\"\ndef load_embeddings_dataframe(conn: sqlite3.Connection, model: str) -> pd.DataFrame:\n    \"\"\"Carrega embeddings por chunk e agrega em 1 vetor por node (média dos\n    chunks), já que pra visualizar o 'mapa das notas' faz mais sentido\n    1 ponto = 1 node do que 1 ponto = 1 chunk.\"\"\"\n    matrix, meta = load_all_embeddings(conn, model)\n    if matrix is None:\n        return pd.DataFrame()\n    df = pd.DataFrame(meta)\n    df[\"vector\"] = list(matrix)",
+        "detail": "src.visualization.Visualize",
+        "documentation": {}
+    },
+    {
+        "label": "ORG_ROAM_DB",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "ORG_ROAM_DB = Path(os.environ.get(\n    \"ORG_ROAM_DB\",\n    str(Path.home() / \".emacs.d\" / \"org-roam.db\"),\n))\n# Nosso banco complementar (fica ao lado, não mexe no do org-roam).\nORGBRAIN_DB = Path(os.environ.get(\n    \"VECTOR_BRAIN_DB\",\n    str(Path.home() / \"org\" / \"roam\" / \"vault\" / \"vector-brain\" / \"data\" / \"vector-brain.db\"),\n))\n# Modelo de embedding. Multilingual porque o conteúdo é em português.",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "ORGBRAIN_DB",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "ORGBRAIN_DB = Path(os.environ.get(\n    \"VECTOR_BRAIN_DB\",\n    str(Path.home() / \"org\" / \"roam\" / \"vault\" / \"vector-brain\" / \"data\" / \"vector-brain.db\"),\n))\n# Modelo de embedding. Multilingual porque o conteúdo é em português.\n# Alternativas: \"intfloat/multilingual-e5-base\" (mais qualidade, mais lento)\n#               \"BAAI/bge-m3\" (ainda melhor, bem mais pesado)\nEMBEDDING_MODEL = os.environ.get(\"VECTOR_BRAIN_MODEL\", \"intfloat/multilingual-e5-small\")\n# Caminho pro schema.sql, resolvido relativo a este arquivo (config.py está\n# em src/, schema.sql está em src/database/). Assim não importa de onde",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "EMBEDDING_MODEL",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "EMBEDDING_MODEL = os.environ.get(\"VECTOR_BRAIN_MODEL\", \"intfloat/multilingual-e5-small\")\n# Caminho pro schema.sql, resolvido relativo a este arquivo (config.py está\n# em src/, schema.sql está em src/database/). Assim não importa de onde\n# você roda o comando.\nSCHEMA_PATH = Path(__file__).parent / \"database\" / \"schema.sql\"\n# Padrões de caminho (fnmatch, ex: \"*/log*\", \"*.log.org\", \"*/journal/*\") a\n# EXCLUIR da indexação semântica. Útil pra arquivos gerados automaticamente\n# (changelogs, logs de git, journals sem prosa) que poluem o espaço de\n# embeddings sem agregar valor semântico. Vazio por padrão = indexa tudo.\nEXCLUDE_FILE_PATTERNS: list[str] = [",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "SCHEMA_PATH",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "SCHEMA_PATH = Path(__file__).parent / \"database\" / \"schema.sql\"\n# Padrões de caminho (fnmatch, ex: \"*/log*\", \"*.log.org\", \"*/journal/*\") a\n# EXCLUIR da indexação semântica. Útil pra arquivos gerados automaticamente\n# (changelogs, logs de git, journals sem prosa) que poluem o espaço de\n# embeddings sem agregar valor semântico. Vazio por padrão = indexa tudo.\nEXCLUDE_FILE_PATTERNS: list[str] = [\n    # \"*/log*.org\",\n]\n# --- API (opcional) ---\nAPI_HOST = os.environ.get(\"VECTOR_BRAIN_API_HOST\", \"127.0.0.1\")",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "API_HOST",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "API_HOST = os.environ.get(\"VECTOR_BRAIN_API_HOST\", \"127.0.0.1\")\nAPI_PORT = int(os.environ.get(\"VECTOR_BRAIN_API_PORT\", \"8004\"))\n# Se definida, a API exige o header `X-API-Key` com esse valor em toda\n# requisição (exceto /docs, /redoc, /openapi.json). None = sem autenticação,\n# adequado só pra uso 100% local (localhost). Defina isso antes de expor a\n# API pra outros dispositivos na rede.\nAPI_KEY = os.environ.get(\"VECTOR_BRAIN_API_KEY\")\n# Tamanho alvo de chunk em caracteres (aprox). Nodes menores que isso\n# viram um chunk só; nodes maiores são divididos.\nCHUNK_TARGET_CHARS  = 1500",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "API_PORT",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "API_PORT = int(os.environ.get(\"VECTOR_BRAIN_API_PORT\", \"8004\"))\n# Se definida, a API exige o header `X-API-Key` com esse valor em toda\n# requisição (exceto /docs, /redoc, /openapi.json). None = sem autenticação,\n# adequado só pra uso 100% local (localhost). Defina isso antes de expor a\n# API pra outros dispositivos na rede.\nAPI_KEY = os.environ.get(\"VECTOR_BRAIN_API_KEY\")\n# Tamanho alvo de chunk em caracteres (aprox). Nodes menores que isso\n# viram um chunk só; nodes maiores são divididos.\nCHUNK_TARGET_CHARS  = 1500\nCHUNK_OVERLAP_CHARS = 200",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "API_KEY = os.environ.get(\"VECTOR_BRAIN_API_KEY\")\n# Tamanho alvo de chunk em caracteres (aprox). Nodes menores que isso\n# viram um chunk só; nodes maiores são divididos.\nCHUNK_TARGET_CHARS  = 1500\nCHUNK_OVERLAP_CHARS = 200\n# Modelos da família e5 esperam prefixos \"query: \" / \"passage: \" nos textos.\n# Se trocar de modelo para um que não use essa convenção, ajuste aqui.\nE5_STYLE_PREFIXES = True",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "CHUNK_OVERLAP_CHARS",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "CHUNK_OVERLAP_CHARS = 200\n# Modelos da família e5 esperam prefixos \"query: \" / \"passage: \" nos textos.\n# Se trocar de modelo para um que não use essa convenção, ajuste aqui.\nE5_STYLE_PREFIXES = True",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "E5_STYLE_PREFIXES",
+        "kind": 5,
+        "importPath": "src.config",
+        "description": "src.config",
+        "peekOfCode": "E5_STYLE_PREFIXES = True",
+        "detail": "src.config",
+        "documentation": {}
+    },
+    {
+        "label": "FakeSentenceTransformer",
+        "kind": 6,
+        "importPath": "tests.FakeEmbeddings",
+        "description": "tests.FakeEmbeddings",
+        "peekOfCode": "class FakeSentenceTransformer:\n    def __init__(self, *args, **kwargs):\n        pass\n    def encode(self, texts, normalize_embeddings=True, show_progress_bar=False):\n        vectors = np.array([_text_to_vector(t) for t in texts], dtype=np.float32)\n        if normalize_embeddings:\n            norms = np.linalg.norm(vectors, axis=1, keepdims=True)\n            norms[norms == 0] = 1\n            vectors = vectors / norms\n        return vectors",
+        "detail": "tests.FakeEmbeddings",
+        "documentation": {}
+    },
+    {
+        "label": "FAKE_DIM",
+        "kind": 5,
+        "importPath": "tests.FakeEmbeddings",
+        "description": "tests.FakeEmbeddings",
+        "peekOfCode": "FAKE_DIM = 8  # sha256 = 32 bytes = 8 floats de 4 bytes\nclass FakeSentenceTransformer:\n    def __init__(self, *args, **kwargs):\n        pass\n    def encode(self, texts, normalize_embeddings=True, show_progress_bar=False):\n        vectors = np.array([_text_to_vector(t) for t in texts], dtype=np.float32)\n        if normalize_embeddings:\n            norms = np.linalg.norm(vectors, axis=1, keepdims=True)\n            norms[norms == 0] = 1\n            vectors = vectors / norms",
+        "detail": "tests.FakeEmbeddings",
+        "documentation": {}
+    },
+    {
+        "label": "api_client",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def api_client(fake_org_roam_db, tmp_path, monkeypatch):\n    \"\"\"Indexa uma base fake e devolve um TestClient da API apontando pra ela.\"\"\"\n    from src import config\n    from src.indexing import main as indexer_main\n    orgbrain_db = tmp_path / \"vector-brain.db\"\n    monkeypatch.setattr(config, \"ORG_ROAM_DB\", fake_org_roam_db)\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", orgbrain_db)\n    monkeypatch.setattr(config, \"API_KEY\", None)\n    monkeypatch.setattr(sys, \"argv\", [\"indexer\"])\n    indexer_main()",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_health",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_health(api_client):\n    resp = api_client.get(\"/health\")\n    assert resp.status_code == 200\n    body = resp.json()\n    assert body[\"status\"] == \"ok\"\n    assert body[\"orgbrain_db_found\"] is True\ndef test_list_nodes(api_client):\n    resp = api_client.get(\"/nodes\")\n    assert resp.status_code == 200\n    nodes = resp.json()",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_list_nodes",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_list_nodes(api_client):\n    resp = api_client.get(\"/nodes\")\n    assert resp.status_code == 200\n    nodes = resp.json()\n    assert len(nodes) == 3\n    titles = {n[\"title\"] for n in nodes}\n    assert titles == {\"Python\", \"Rust\", \"SQLite\"}\ndef test_list_nodes_filter_by_tag(api_client):\n    resp = api_client.get(\"/nodes\", params={\"tag\": \"programacao\"})\n    assert resp.status_code == 200",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_list_nodes_filter_by_tag",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_list_nodes_filter_by_tag(api_client):\n    resp = api_client.get(\"/nodes\", params={\"tag\": \"programacao\"})\n    assert resp.status_code == 200\n    nodes = resp.json()\n    assert all(\"programacao\" in n[\"tags\"] for n in nodes)\ndef test_get_node_detail(api_client):\n    resp = api_client.get(\"/nodes/node-python\")\n    assert resp.status_code == 200\n    body = resp.json()\n    assert body[\"title\"] == \"Python\"",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_node_detail",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_get_node_detail(api_client):\n    resp = api_client.get(\"/nodes/node-python\")\n    assert resp.status_code == 200\n    body = resp.json()\n    assert body[\"title\"] == \"Python\"\n    assert len(body[\"chunks\"]) >= 1\ndef test_get_node_not_found(api_client):\n    resp = api_client.get(\"/nodes/node-inexistente\")\n    assert resp.status_code == 404\ndef test_list_tags(api_client):",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_node_not_found",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_get_node_not_found(api_client):\n    resp = api_client.get(\"/nodes/node-inexistente\")\n    assert resp.status_code == 404\ndef test_list_tags(api_client):\n    resp = api_client.get(\"/tags\")\n    assert resp.status_code == 200\n    tags = {t[\"tag\"] for t in resp.json()}\n    assert \"programacao\" in tags\n    assert \"banco-de-dados\" in tags\ndef test_search_endpoint(api_client):",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_list_tags",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_list_tags(api_client):\n    resp = api_client.get(\"/tags\")\n    assert resp.status_code == 200\n    tags = {t[\"tag\"] for t in resp.json()}\n    assert \"programacao\" in tags\n    assert \"banco-de-dados\" in tags\ndef test_search_endpoint(api_client):\n    resp = api_client.get(\"/search\", params={\"q\": \"qualquer coisa\", \"top_k\": 2})\n    assert resp.status_code == 200\n    results = resp.json()",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_endpoint",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_search_endpoint(api_client):\n    resp = api_client.get(\"/search\", params={\"q\": \"qualquer coisa\", \"top_k\": 2})\n    assert resp.status_code == 200\n    results = resp.json()\n    assert len(results) == 2\n    assert \"score\" in results[0]\ndef test_stats(api_client):\n    resp = api_client.get(\"/stats\")\n    assert resp.status_code == 200\n    body = resp.json()",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_stats",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_stats(api_client):\n    resp = api_client.get(\"/stats\")\n    assert resp.status_code == 200\n    body = resp.json()\n    assert body[\"total_nodes\"] == 3\n    assert body[\"total_chunks\"] >= 3\n    assert body[\"last_index_run\"] is not None\ndef test_api_key_blocks_when_configured(api_client):\n    from src import config\n    # simula API key ligada DEPOIS do app já criado, mexendo direto no config",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_api_key_blocks_when_configured",
+        "kind": 2,
+        "importPath": "tests.TestAPI",
+        "description": "tests.TestAPI",
+        "peekOfCode": "def test_api_key_blocks_when_configured(api_client):\n    from src import config\n    # simula API key ligada DEPOIS do app já criado, mexendo direto no config\n    # (o middleware lê config.API_KEY a cada request, então isso é suficiente)\n    original = config.API_KEY\n    config.API_KEY = \"segredo123\"\n    try:\n        resp_no_key = api_client.get(\"/health\")\n        assert resp_no_key.status_code == 401\n        resp_with_key = api_client.get(\"/health\", headers={\"X-API-Key\": \"segredo123\"})",
+        "detail": "tests.TestAPI",
+        "documentation": {}
+    },
+    {
+        "label": "test_short_text_stays_single_chunk",
+        "kind": 2,
+        "importPath": "tests.TestChunking",
+        "description": "tests.TestChunking",
+        "peekOfCode": "def test_short_text_stays_single_chunk():\n    text = \"Um texto curto qualquer.\"\n    assert split_into_chunks(text) == [text]\ndef test_empty_text_returns_no_chunks():\n    assert split_into_chunks(\"\") == []\n    assert split_into_chunks(\"   \") == []\ndef test_long_text_splits_into_multiple_chunks():\n    # gera texto bem maior que CHUNK_TARGET_CHARS (1500)\n    paragraph = \"Esta é uma frase de teste para preencher espaço. \" * 10\n    text = \"\\n\\n\".join([paragraph] * 10)",
+        "detail": "tests.TestChunking",
+        "documentation": {}
+    },
+    {
+        "label": "test_empty_text_returns_no_chunks",
+        "kind": 2,
+        "importPath": "tests.TestChunking",
+        "description": "tests.TestChunking",
+        "peekOfCode": "def test_empty_text_returns_no_chunks():\n    assert split_into_chunks(\"\") == []\n    assert split_into_chunks(\"   \") == []\ndef test_long_text_splits_into_multiple_chunks():\n    # gera texto bem maior que CHUNK_TARGET_CHARS (1500)\n    paragraph = \"Esta é uma frase de teste para preencher espaço. \" * 10\n    text = \"\\n\\n\".join([paragraph] * 10)\n    chunks = split_into_chunks(text)\n    assert len(chunks) > 1\n    for c in chunks:",
+        "detail": "tests.TestChunking",
+        "documentation": {}
+    },
+    {
+        "label": "test_long_text_splits_into_multiple_chunks",
+        "kind": 2,
+        "importPath": "tests.TestChunking",
+        "description": "tests.TestChunking",
+        "peekOfCode": "def test_long_text_splits_into_multiple_chunks():\n    # gera texto bem maior que CHUNK_TARGET_CHARS (1500)\n    paragraph = \"Esta é uma frase de teste para preencher espaço. \" * 10\n    text = \"\\n\\n\".join([paragraph] * 10)\n    chunks = split_into_chunks(text)\n    assert len(chunks) > 1\n    for c in chunks:\n        assert len(c) > 0\ndef test_chunks_have_overlap_when_split_mid_paragraph():\n    # texto sem quebras de parágrafo força corte no meio",
+        "detail": "tests.TestChunking",
+        "documentation": {}
+    },
+    {
+        "label": "test_chunks_have_overlap_when_split_mid_paragraph",
+        "kind": 2,
+        "importPath": "tests.TestChunking",
+        "description": "tests.TestChunking",
+        "peekOfCode": "def test_chunks_have_overlap_when_split_mid_paragraph():\n    # texto sem quebras de parágrafo força corte no meio\n    text = \"a\" * 4000\n    chunks = split_into_chunks(text)\n    assert len(chunks) >= 2\n    # o fim de um chunk deve reaparecer no início do próximo (overlap)\n    assert chunks[0][-50:] in chunks[1]",
+        "detail": "tests.TestChunking",
+        "documentation": {}
+    },
+    {
+        "label": "test_indexer_populates_database",
+        "kind": 2,
+        "importPath": "tests.TestIndexer",
+        "description": "tests.TestIndexer",
+        "peekOfCode": "def test_indexer_populates_database(fake_org_roam_db, tmp_path, monkeypatch):\n    from src import config\n    from src.indexing import main as indexer_main\n    orgbrain_db = tmp_path / \"vector-brain.db\"\n    monkeypatch.setattr(config, \"ORG_ROAM_DB\", fake_org_roam_db)\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", orgbrain_db)\n    monkeypatch.setattr(sys, \"argv\", [\"indexer\"])\n    indexer_main()\n    conn = sqlite3.connect(orgbrain_db)\n    nodes = conn.execute(\"SELECT node_id, title FROM indexed_nodes\").fetchall()",
+        "detail": "tests.TestIndexer",
+        "documentation": {}
+    },
+    {
+        "label": "test_indexer_skips_unchanged_nodes_on_second_run",
+        "kind": 2,
+        "importPath": "tests.TestIndexer",
+        "description": "tests.TestIndexer",
+        "peekOfCode": "def test_indexer_skips_unchanged_nodes_on_second_run(fake_org_roam_db, tmp_path, monkeypatch):\n    from src import config\n    from src.indexing import main as indexer_main\n    orgbrain_db = tmp_path / \"vector-brain.db\"\n    monkeypatch.setattr(config, \"ORG_ROAM_DB\", fake_org_roam_db)\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", orgbrain_db)\n    monkeypatch.setattr(sys, \"argv\", [\"indexer\"])\n    indexer_main()\n    conn = sqlite3.connect(orgbrain_db)\n    first_run_indexed_at = dict(conn.execute(\"SELECT node_id, indexed_at FROM indexed_nodes\").fetchall())",
+        "detail": "tests.TestIndexer",
+        "documentation": {}
+    },
+    {
+        "label": "test_indexer_reprocesses_when_content_changes",
+        "kind": 2,
+        "importPath": "tests.TestIndexer",
+        "description": "tests.TestIndexer",
+        "peekOfCode": "def test_indexer_reprocesses_when_content_changes(fake_org_roam_db, org_files, tmp_path, monkeypatch):\n    from src import config\n    from src.indexing import main as indexer_main\n    orgbrain_db = tmp_path / \"vector-brain.db\"\n    monkeypatch.setattr(config, \"ORG_ROAM_DB\", fake_org_roam_db)\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", orgbrain_db)\n    monkeypatch.setattr(sys, \"argv\", [\"indexer\"])\n    indexer_main()\n    conn = sqlite3.connect(orgbrain_db)\n    hash_before = conn.execute(",
+        "detail": "tests.TestIndexer",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_nodes_reads_tags_and_titles",
+        "kind": 2,
+        "importPath": "tests.TestOrgReader",
+        "description": "tests.TestOrgReader",
+        "peekOfCode": "def test_fetch_nodes_reads_tags_and_titles(fake_org_roam_db):\n    conn = connect_readonly(fake_org_roam_db)\n    nodes = fetch_nodes(conn)\n    assert len(nodes) == 3\n    by_id = {n.node_id: n for n in nodes}\n    assert by_id[\"node-python\"].title == \"Python\"\n    assert by_id[\"node-python\"].tags == [\"programacao\"]\n    assert by_id[\"node-rust\"].tags == []  # sem tag associada\ndef test_extract_subtree_excludes_headline_and_properties(fake_org_roam_db):\n    conn = connect_readonly(fake_org_roam_db)",
+        "detail": "tests.TestOrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_subtree_excludes_headline_and_properties",
+        "kind": 2,
+        "importPath": "tests.TestOrgReader",
+        "description": "tests.TestOrgReader",
+        "peekOfCode": "def test_extract_subtree_excludes_headline_and_properties(fake_org_roam_db):\n    conn = connect_readonly(fake_org_roam_db)\n    results = {node.node_id: text for node, text in nodes_with_text(conn)}\n    python_text = results[\"node-python\"]\n    assert \"* Python\" not in python_text\n    assert \"PROPERTIES\" not in python_text\n    assert \":ID:\" not in python_text\n    assert \"Python é uma linguagem\" in python_text\ndef test_extract_subtree_stops_at_next_headline(fake_org_roam_db):\n    \"\"\"O texto do node Python não pode vazar pro conteúdo do node Rust.\"\"\"",
+        "detail": "tests.TestOrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_subtree_stops_at_next_headline",
+        "kind": 2,
+        "importPath": "tests.TestOrgReader",
+        "description": "tests.TestOrgReader",
+        "peekOfCode": "def test_extract_subtree_stops_at_next_headline(fake_org_roam_db):\n    \"\"\"O texto do node Python não pode vazar pro conteúdo do node Rust.\"\"\"\n    conn = connect_readonly(fake_org_roam_db)\n    results = {node.node_id: text for node, text in nodes_with_text(conn)}\n    assert \"Rust\" not in results[\"node-python\"]\n    assert \"garbage collector\" not in results[\"node-python\"]\ndef test_extract_subtree_last_node_goes_to_end_of_file(fake_org_roam_db):\n    conn = connect_readonly(fake_org_roam_db)\n    results = {node.node_id: text for node, text in nodes_with_text(conn)}\n    assert \"sem garbage collector\" in results[\"node-rust\"]",
+        "detail": "tests.TestOrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "test_extract_subtree_last_node_goes_to_end_of_file",
+        "kind": 2,
+        "importPath": "tests.TestOrgReader",
+        "description": "tests.TestOrgReader",
+        "peekOfCode": "def test_extract_subtree_last_node_goes_to_end_of_file(fake_org_roam_db):\n    conn = connect_readonly(fake_org_roam_db)\n    results = {node.node_id: text for node, text in nodes_with_text(conn)}\n    assert \"sem garbage collector\" in results[\"node-rust\"]\ndef test_fetch_nodes_strips_lisp_quoted_file_paths(tmp_path):\n    \"\"\"Reproduz o bug real: algumas instalações do org-roam gravam o campo\n    `file` como string Lisp já 'impressa', com aspas literais em volta.\"\"\"\n    import sqlite3\n    org_file = tmp_path / \"nota.org\"\n    org_file.write_text(\"* Título\\nconteúdo qualquer\\n\", encoding=\"utf-8\")",
+        "detail": "tests.TestOrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "test_fetch_nodes_strips_lisp_quoted_file_paths",
+        "kind": 2,
+        "importPath": "tests.TestOrgReader",
+        "description": "tests.TestOrgReader",
+        "peekOfCode": "def test_fetch_nodes_strips_lisp_quoted_file_paths(tmp_path):\n    \"\"\"Reproduz o bug real: algumas instalações do org-roam gravam o campo\n    `file` como string Lisp já 'impressa', com aspas literais em volta.\"\"\"\n    import sqlite3\n    org_file = tmp_path / \"nota.org\"\n    org_file.write_text(\"* Título\\nconteúdo qualquer\\n\", encoding=\"utf-8\")\n    db_path = tmp_path / \"org-roam.db\"\n    conn = sqlite3.connect(db_path)\n    conn.executescript(\"\"\"\n        CREATE TABLE nodes (id TEXT PRIMARY KEY, file TEXT, level INTEGER, pos INTEGER, todo TEXT, title TEXT, olp TEXT);",
+        "detail": "tests.TestOrgReader",
+        "documentation": {}
+    },
+    {
+        "label": "indexed_db",
+        "kind": 2,
+        "importPath": "tests.TestSearch",
+        "description": "tests.TestSearch",
+        "peekOfCode": "def indexed_db(fake_org_roam_db, tmp_path, monkeypatch):\n    \"\"\"Roda o indexer (com embeddings falsos, via fixture autouse do\n    test_indexer_smoke) e devolve o path do orgbrain.db resultante.\"\"\"\n    from src import config\n    from src.indexing import main as indexer_main\n    orgbrain_db = tmp_path / \"vector-brain.db\"\n    monkeypatch.setattr(config, \"ORG_ROAM_DB\", fake_org_roam_db)\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", orgbrain_db)\n    monkeypatch.setattr(sys, \"argv\", [\"indexer\"])\n    indexer_main()",
+        "detail": "tests.TestSearch",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_returns_results_from_indexed_base",
+        "kind": 2,
+        "importPath": "tests.TestSearch",
+        "description": "tests.TestSearch",
+        "peekOfCode": "def test_search_returns_results_from_indexed_base(indexed_db, monkeypatch):\n    from src import config\n    from src.searching import search as run_search\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", indexed_db)\n    results = run_search(\"qualquer coisa\", top_k=3)\n    assert len(results) == 3\n    for r in results:\n        assert \"score\" in r\n        assert \"title\" in r\n        assert r[\"title\"] in {\"Python\", \"Rust\", \"SQLite\"}",
+        "detail": "tests.TestSearch",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_top_k_limits_results",
+        "kind": 2,
+        "importPath": "tests.TestSearch",
+        "description": "tests.TestSearch",
+        "peekOfCode": "def test_search_top_k_limits_results(indexed_db, monkeypatch):\n    from src import config\n    from src.searching import search as run_search\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", indexed_db)\n    results = run_search(\"teste\", top_k=1)\n    assert len(results) == 1\ndef test_search_on_empty_database_returns_empty(tmp_path, monkeypatch):\n    from src import config\n    from src.searching import search as run_search\n    from src.indexing.Indexer import init_orgbrain_db",
+        "detail": "tests.TestSearch",
+        "documentation": {}
+    },
+    {
+        "label": "test_search_on_empty_database_returns_empty",
+        "kind": 2,
+        "importPath": "tests.TestSearch",
+        "description": "tests.TestSearch",
+        "peekOfCode": "def test_search_on_empty_database_returns_empty(tmp_path, monkeypatch):\n    from src import config\n    from src.searching import search as run_search\n    from src.indexing.Indexer import init_orgbrain_db\n    import sqlite3\n    empty_db = tmp_path / \"empty.db\"\n    conn = sqlite3.connect(empty_db)\n    init_orgbrain_db(conn)\n    conn.close()\n    monkeypatch.setattr(config, \"ORGBRAIN_DB\", empty_db)",
+        "detail": "tests.TestSearch",
+        "documentation": {}
+    },
+    {
+        "label": "fake_module",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "fake_module = types.ModuleType(\"sentence_transformers\")\nfake_module.SentenceTransformer = FakeSentenceTransformer\nsys.modules[\"sentence_transformers\"] = fake_module\nfrom src import config  # noqa: E402\nfrom src.indexing import main as indexer_main  # noqa: E402\nfrom src.visualization import (  # noqa: E402\n    load_embeddings_dataframe, plot_embedding_map_static,\n    plot_embedding_map_interactive, plot_corpus_stats,\n)\ntmp = Path(tempfile.mkdtemp())",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "fake_module.SentenceTransformer",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "fake_module.SentenceTransformer = FakeSentenceTransformer\nsys.modules[\"sentence_transformers\"] = fake_module\nfrom src import config  # noqa: E402\nfrom src.indexing import main as indexer_main  # noqa: E402\nfrom src.visualization import (  # noqa: E402\n    load_embeddings_dataframe, plot_embedding_map_static,\n    plot_embedding_map_interactive, plot_corpus_stats,\n)\ntmp = Path(tempfile.mkdtemp())\norg_dir = tmp / \"org\"",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "sys.modules[\"sentence_transformers\"]",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "sys.modules[\"sentence_transformers\"] = fake_module\nfrom src import config  # noqa: E402\nfrom src.indexing import main as indexer_main  # noqa: E402\nfrom src.visualization import (  # noqa: E402\n    load_embeddings_dataframe, plot_embedding_map_static,\n    plot_embedding_map_interactive, plot_corpus_stats,\n)\ntmp = Path(tempfile.mkdtemp())\norg_dir = tmp / \"org\"\norg_dir.mkdir()",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "tmp",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "tmp = Path(tempfile.mkdtemp())\norg_dir = tmp / \"org\"\norg_dir.mkdir()\n# alguns arquivos/nodes fake com tags variadas, pra ter algo pra visualizar\ndocs = {\n    \"python.org\": [\n        (\"node-py-1\", \"Python\", \"programacao\", \"Python é uma linguagem de alto nível, dinâmica e legível.\"),\n        (\"node-py-2\", \"Django\", \"programacao\", \"Django é um framework web em Python, orientado a baterias inclusas.\"),\n    ],\n    \"rust.org\": [",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "org_dir",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "org_dir = tmp / \"org\"\norg_dir.mkdir()\n# alguns arquivos/nodes fake com tags variadas, pra ter algo pra visualizar\ndocs = {\n    \"python.org\": [\n        (\"node-py-1\", \"Python\", \"programacao\", \"Python é uma linguagem de alto nível, dinâmica e legível.\"),\n        (\"node-py-2\", \"Django\", \"programacao\", \"Django é um framework web em Python, orientado a baterias inclusas.\"),\n    ],\n    \"rust.org\": [\n        (\"node-rust-1\", \"Rust\", \"programacao\", \"Rust é uma linguagem de sistemas com foco em segurança de memória.\"),",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "docs",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "docs = {\n    \"python.org\": [\n        (\"node-py-1\", \"Python\", \"programacao\", \"Python é uma linguagem de alto nível, dinâmica e legível.\"),\n        (\"node-py-2\", \"Django\", \"programacao\", \"Django é um framework web em Python, orientado a baterias inclusas.\"),\n    ],\n    \"rust.org\": [\n        (\"node-rust-1\", \"Rust\", \"programacao\", \"Rust é uma linguagem de sistemas com foco em segurança de memória.\"),\n    ],\n    \"historia.org\": [\n        (\"node-hist-1\", \"Revolução Francesa\", \"historia\", \"A Revolução Francesa começou em 1789 e mudou a Europa.\"),",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "roam_db",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "roam_db = tmp / \"org-roam.db\"\nconn = sqlite3.connect(roam_db)\nconn.executescript(\"\"\"\nCREATE TABLE nodes (id TEXT PRIMARY KEY, file TEXT, level INTEGER, pos INTEGER, todo TEXT, title TEXT, olp TEXT);\nCREATE TABLE tags (node_id TEXT, tag TEXT);\n\"\"\")\nfor filename, nodes in docs.items():\n    path = org_dir / filename\n    content = \"\"\n    positions = []",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "conn = sqlite3.connect(roam_db)\nconn.executescript(\"\"\"\nCREATE TABLE nodes (id TEXT PRIMARY KEY, file TEXT, level INTEGER, pos INTEGER, todo TEXT, title TEXT, olp TEXT);\nCREATE TABLE tags (node_id TEXT, tag TEXT);\n\"\"\")\nfor filename, nodes in docs.items():\n    path = org_dir / filename\n    content = \"\"\n    positions = []\n    for node_id, title, tag, body in nodes:",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "config.ORG_ROAM_DB",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "config.ORG_ROAM_DB = roam_db\nconfig.ORGBRAIN_DB = tmp / \"orgbrain.db\"\nsys.argv = [\"indexer\"]\nindexer_main()\nbrain_conn = sqlite3.connect(config.ORGBRAIN_DB)\ndf = load_embeddings_dataframe(brain_conn, config.EMBEDDING_MODEL)\nprint(f\"\\n{len(df)} nodes carregados. Tags: {df['primary_tag'].unique().tolist()}\")\nfigures_dir = tmp / \"reports\" / \"figures\"\nplot_embedding_map_static(df, out_path=figures_dir / \"embedding_map.png\")\nplot_embedding_map_interactive(df, out_path=figures_dir / \"embedding_map.html\")",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "config.ORGBRAIN_DB",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "config.ORGBRAIN_DB = tmp / \"orgbrain.db\"\nsys.argv = [\"indexer\"]\nindexer_main()\nbrain_conn = sqlite3.connect(config.ORGBRAIN_DB)\ndf = load_embeddings_dataframe(brain_conn, config.EMBEDDING_MODEL)\nprint(f\"\\n{len(df)} nodes carregados. Tags: {df['primary_tag'].unique().tolist()}\")\nfigures_dir = tmp / \"reports\" / \"figures\"\nplot_embedding_map_static(df, out_path=figures_dir / \"embedding_map.png\")\nplot_embedding_map_interactive(df, out_path=figures_dir / \"embedding_map.html\")\nplot_corpus_stats(df, out_path=figures_dir / \"corpus_stats.png\")",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "sys.argv",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "sys.argv = [\"indexer\"]\nindexer_main()\nbrain_conn = sqlite3.connect(config.ORGBRAIN_DB)\ndf = load_embeddings_dataframe(brain_conn, config.EMBEDDING_MODEL)\nprint(f\"\\n{len(df)} nodes carregados. Tags: {df['primary_tag'].unique().tolist()}\")\nfigures_dir = tmp / \"reports\" / \"figures\"\nplot_embedding_map_static(df, out_path=figures_dir / \"embedding_map.png\")\nplot_embedding_map_interactive(df, out_path=figures_dir / \"embedding_map.html\")\nplot_corpus_stats(df, out_path=figures_dir / \"corpus_stats.png\")\nprint(\"\\nArquivos gerados:\")",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "brain_conn",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "brain_conn = sqlite3.connect(config.ORGBRAIN_DB)\ndf = load_embeddings_dataframe(brain_conn, config.EMBEDDING_MODEL)\nprint(f\"\\n{len(df)} nodes carregados. Tags: {df['primary_tag'].unique().tolist()}\")\nfigures_dir = tmp / \"reports\" / \"figures\"\nplot_embedding_map_static(df, out_path=figures_dir / \"embedding_map.png\")\nplot_embedding_map_interactive(df, out_path=figures_dir / \"embedding_map.html\")\nplot_corpus_stats(df, out_path=figures_dir / \"corpus_stats.png\")\nprint(\"\\nArquivos gerados:\")\nfor f in figures_dir.iterdir():\n    print(\" -\", f, f.stat().st_size, \"bytes\")",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "df = load_embeddings_dataframe(brain_conn, config.EMBEDDING_MODEL)\nprint(f\"\\n{len(df)} nodes carregados. Tags: {df['primary_tag'].unique().tolist()}\")\nfigures_dir = tmp / \"reports\" / \"figures\"\nplot_embedding_map_static(df, out_path=figures_dir / \"embedding_map.png\")\nplot_embedding_map_interactive(df, out_path=figures_dir / \"embedding_map.html\")\nplot_corpus_stats(df, out_path=figures_dir / \"corpus_stats.png\")\nprint(\"\\nArquivos gerados:\")\nfor f in figures_dir.iterdir():\n    print(\" -\", f, f.stat().st_size, \"bytes\")",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "figures_dir",
+        "kind": 5,
+        "importPath": "tests.TestVisualization",
+        "description": "tests.TestVisualization",
+        "peekOfCode": "figures_dir = tmp / \"reports\" / \"figures\"\nplot_embedding_map_static(df, out_path=figures_dir / \"embedding_map.png\")\nplot_embedding_map_interactive(df, out_path=figures_dir / \"embedding_map.html\")\nplot_corpus_stats(df, out_path=figures_dir / \"corpus_stats.png\")\nprint(\"\\nArquivos gerados:\")\nfor f in figures_dir.iterdir():\n    print(\" -\", f, f.stat().st_size, \"bytes\")",
+        "detail": "tests.TestVisualization",
+        "documentation": {}
+    },
+    {
+        "label": "fake_sentence_transformers",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def fake_sentence_transformers(monkeypatch):\n    \"\"\"Injeta um módulo sentence_transformers falso no sys.modules pra todos\n    os testes, já que Indexer.py e Search.py fazem\n    `from sentence_transformers import SentenceTransformer` dentro das\n    funções (import tardio -- não dá pra mockar só a classe via monkeypatch\n    de atributo, precisa interceptar o import em si).\"\"\"\n    fake_module = types.ModuleType(\"sentence_transformers\")\n    fake_module.SentenceTransformer = FakeSentenceTransformer\n    monkeypatch.setitem(sys.modules, \"sentence_transformers\", fake_module)\n    yield",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "org_files",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def org_files(tmp_path: Path) -> dict[str, Path]:\n    \"\"\"Cria 2 arquivos .org de teste e retorna os paths.\"\"\"\n    f1 = tmp_path / \"linguagens.org\"\n    f1.write_text(\n        \"* Python\\n\"\n        \":PROPERTIES:\\n\"\n        \":ID: node-python\\n\"\n        \":END:\\n\"\n        \"Python é uma linguagem de programação de alto nível, \"\n        \"conhecida pela sintaxe legível e ecossistema de bibliotecas.\\n\"",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "fake_org_roam_db",
+        "kind": 2,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "def fake_org_roam_db(tmp_path: Path, org_files) -> Path:\n    \"\"\"Cria um org-roam.db mínimo apontando pros arquivos de teste,\n    com pos/level batendo com o conteúdo real dos arquivos.\"\"\"\n    db_path = tmp_path / \"org-roam.db\"\n    conn = sqlite3.connect(db_path)\n    conn.executescript(ORG_ROAM_MINIMAL_SCHEMA)\n    f1 = org_files[\"linguagens\"]\n    f2 = org_files[\"bancos\"]\n    text1 = f1.read_text(encoding=\"utf-8\")\n    text2 = f2.read_text(encoding=\"utf-8\")",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "ORG_ROAM_MINIMAL_SCHEMA",
+        "kind": 5,
+        "importPath": "tests.conftest",
+        "description": "tests.conftest",
+        "peekOfCode": "ORG_ROAM_MINIMAL_SCHEMA = \"\"\"\nCREATE TABLE nodes (\n    id TEXT PRIMARY KEY,\n    file TEXT,\n    level INTEGER,\n    pos INTEGER,\n    todo TEXT,\n    title TEXT,\n    olp TEXT\n);",
+        "detail": "tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "conn = connect_readonly(config.ORG_ROAM_DB)\nresultados = nodes_with_text(conn)\nfor node, text in resultados[:3]:\n    print(f\"--- {node.title} ({node.file}) ---\")\n    print(text[:300])\n    print()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "resultados",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "resultados = nodes_with_text(conn)\nfor node, text in resultados[:3]:\n    print(f\"--- {node.title} ({node.file}) ---\")\n    print(text[:300])\n    print()",
+        "detail": "main",
+        "documentation": {}
+    }
+]

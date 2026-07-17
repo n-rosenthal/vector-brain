@@ -9,12 +9,34 @@ from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query
 
+import numpy as np
+
 from .. import config
 from ..searching.Search import load_all_embeddings, search_core
 from .Dependencies import get_orgbrain_conn, get_embedding_model
 from .Schemas import (
-    ChunkOut, CorpusStats, FileCount, HealthStatus, IndexRunOut,
-    NodeDetail, NodeOut, SearchResultOut, TagCount,
+    ChunkOut,
+    CorpusStats,
+    EmbeddingOut,
+    EmbeddingQuery,
+    EmbeddingQueryResult,
+    FileCount,
+    HealthStatus,
+    IndexRunOut,
+    NeighborOut,
+    NodeDetail,
+    NodeOut,
+    SearchResultOut,
+    SimilarityQuery,
+    SimilarityResult,
+    TagCount,
+)
+
+from ..searching.Embeddings import (
+    encode_text,
+    embedding_by_chunk,
+    nearest_neighbors,
+    similarity_between_texts,
 )
 
 router = APIRouter()
@@ -154,4 +176,91 @@ def stats(conn: sqlite3.Connection = Depends(get_orgbrain_conn)):
         top_tags=top_tags,
         top_files=top_files,
         last_index_run=last_run,
+    )
+
+
+@router.get(
+    "/embeddings/{chunk_id}",
+    response_model=EmbeddingOut,
+    tags=["embeddings"],
+)
+def get_embedding(
+    chunk_id: int,
+    conn: sqlite3.Connection = Depends(get_orgbrain_conn),
+):
+    embedding = embedding_by_chunk(conn, chunk_id)
+
+    if embedding is None:
+        raise HTTPException(
+            status_code=404,
+            detail="embedding não encontrado",
+        )
+
+    return EmbeddingOut(
+        chunk_id=chunk_id,
+        model=embedding.model,
+        dimension=embedding.dimension,
+        vector=embedding.vector.tolist(),
+    )
+
+
+@router.get(
+    "/embeddings/{chunk_id}/neighbors",
+    response_model=list[NeighborOut],
+    tags=["embeddings"],
+)
+def embedding_neighbors(
+    chunk_id: int,
+    k: int = Query(10, ge=1, le=100),
+    conn: sqlite3.Connection = Depends(get_orgbrain_conn),
+):
+
+    return nearest_neighbors(
+        conn=conn,
+        chunk_id=chunk_id,
+        k=k,
+    )
+
+
+@router.post(
+    "/embeddings/query",
+    response_model=EmbeddingQueryResult,
+    tags=["embeddings"],
+)
+def embed_query(
+    query: EmbeddingQuery,
+    model=Depends(get_embedding_model),
+):
+
+    vector = encode_text(
+        model=model,
+        text=query.text,
+    )
+
+    return EmbeddingQueryResult(
+        model=config.EMBEDDING_MODEL,
+        dimension=len(vector),
+        vector=vector.tolist(),
+    )
+
+@router.post(
+    "/embeddings/similarity",
+    response_model=SimilarityResult,
+    tags=["embeddings"],
+)
+def similarity_endpoint(
+    query: SimilarityQuery,
+    model=Depends(get_embedding_model),
+):
+
+    similarity = similarity_between_texts(
+        model=model,
+        text_a=query.text_a,
+        text_b=query.text_b,
+    )
+
+    return SimilarityResult(
+        cosine_similarity=similarity["cosine_similarity"],
+        euclidean_distance=similarity["euclidean_distance"],
+        dot_product=similarity["dot_product"],
     )

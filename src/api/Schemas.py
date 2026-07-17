@@ -1,10 +1,17 @@
-"""Modelos Pydantic pra request/response da API."""
+"""
+Modelos Pydantic pra request/response da API.
+"""
+
 from __future__ import annotations
 
 from typing import Optional
 
 from pydantic import BaseModel, Field
 
+
+# ============================================================
+# Nodes
+# ============================================================
 
 class NodeOut(BaseModel):
     node_id: str
@@ -26,6 +33,10 @@ class NodeDetail(NodeOut):
     chunks: list[ChunkOut] = Field(default_factory=list)
 
 
+# ============================================================
+# Search
+# ============================================================
+
 class SearchResultOut(BaseModel):
     node_id: str
     title: str
@@ -33,6 +44,50 @@ class SearchResultOut(BaseModel):
     score: float
     snippet: str
 
+
+# ============================================================
+# Embeddings
+# ============================================================
+
+class EmbeddingOut(BaseModel):
+    chunk_id: int
+    model: str
+    dimension: int
+    vector: list[float]
+
+
+class EmbeddingQuery(BaseModel):
+    text: str
+
+
+class EmbeddingQueryResult(BaseModel):
+    model: str
+    dimension: int
+    vector: list[float]
+
+
+class SimilarityQuery(BaseModel):
+    text_a: str
+    text_b: str
+
+
+class SimilarityResult(BaseModel):
+    cosine_similarity: float
+    euclidean_distance: float
+    dot_product: float
+
+
+class NeighborOut(BaseModel):
+    chunk_id: int
+    node_id: str
+    title: str
+    file: str
+    score: float
+
+
+# ============================================================
+# Metadata
+# ============================================================
 
 class TagCount(BaseModel):
     tag: str

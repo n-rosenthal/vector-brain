@@ -2,7 +2,7 @@
 App FastAPI do vector-brain.
 
 Uso:
-    uvicorn src.api.App:app --reload --host 127.0.0.1 --port 8000
+    uvicorn src.api.App:app --reload --host 127.0.0.1 --port 8004
 
 Docs interativas em /docs (Swagger) e /redoc.
 

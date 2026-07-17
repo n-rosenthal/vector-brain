@@ -67,8 +67,55 @@ def replace_chunks(conn: sqlite3.Connection, node_id: str, chunks: list[str]) ->
 
 def store_embeddings(conn: sqlite3.Connection, chunk_ids: list[int], vectors: np.ndarray, model: str):
     for chunk_id, vec in zip(chunk_ids, vectors):
-        conn.execute(
-            "INSERT OR REPLACE INTO embeddings (chunk_id, model, dim, vector) VALUES (?, ?, ?, ?)",
+        conn.execute("""INSERT INTO embeddings (
+
+    chunk_id,
+
+    model,
+
+    dim,
+
+    normalized,
+
+    dtype,
+
+    created_at,
+
+    vector
+
+)
+
+VALUES (
+
+    ?,
+
+    ?,
+
+    ?,
+
+    1,
+
+    'float32',
+
+    ?,
+
+    ?
+
+)
+
+ON CONFLICT(chunk_id, model)
+
+DO UPDATE SET
+
+    dim = excluded.dim,
+
+    normalized = excluded.normalized,
+
+    dtype = excluded.dtype,
+
+    created_at = excluded.created_at,
+
+    vector = excluded.vector)""",
             (chunk_id, model, vec.shape[0], vec.astype(np.float32).tobytes()),
         )
 
@@ -132,6 +179,21 @@ def main():
         VALUES (?, ?, ?, ?, ?, ?)
     """, (started_at, datetime.now(timezone.utc).isoformat(), len(all_nodes_with_text),
           nodes_updated, chunks_embedded, config.EMBEDDING_MODEL))
+
+    brain_conn.execute(
+        """
+        INSERT INTO metadata(key,value)
+        VALUES('embedding_revision', ?)
+        
+        ON CONFLICT(key)
+        DO UPDATE SET
+        value=excluded.value
+        """,
+        (
+            datetime.now(timezone.utc).isoformat(),
+        )
+    )
+    
     brain_conn.commit()
 
     print(f"Concluído: {nodes_updated} nodes atualizados, {chunks_embedded} chunks embedados.")

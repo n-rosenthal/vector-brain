@@ -33,12 +33,152 @@ CREATE INDEX IF NOT EXISTS idx_chunks_node ON chunks(node_id);
 
 -- Embeddings por chunk. Guardamos o nome do modelo para poder ter
 -- múltiplos modelos coexistindo (ex: comparar e5-small vs bge-m3).
-CREATE TABLE IF NOT EXISTS embeddings (
-    chunk_id      INTEGER NOT NULL REFERENCES chunks(id) ON DELETE CASCADE,
+CREATE TABLE embeddings (
+
+    chunk_id      INTEGER NOT NULL,
+
     model         TEXT NOT NULL,
+
     dim           INTEGER NOT NULL,
-    vector        BLOB NOT NULL,      -- float32, via numpy.tobytes()
-    PRIMARY KEY (chunk_id, model)
+
+    normalized    INTEGER NOT NULL DEFAULT 1,
+
+    dtype         TEXT NOT NULL DEFAULT 'float32',
+
+    created_at    TEXT NOT NULL,
+
+    vector        BLOB NOT NULL,
+
+    PRIMARY KEY(chunk_id, model),
+
+    FOREIGN KEY(chunk_id)
+        REFERENCES chunks(id)
+        ON DELETE CASCADE
+
+);
+
+CREATE TABLE projections (
+
+    id INTEGER PRIMARY KEY,
+
+    algorithm TEXT NOT NULL,
+
+    dimensions INTEGER NOT NULL,
+
+    parameters TEXT,
+
+    model TEXT NOT NULL,
+
+    created_at TEXT NOT NULL
+
+);
+
+CREATE TABLE projection_points (
+
+    projection_id INTEGER NOT NULL,
+
+    chunk_id INTEGER NOT NULL,
+
+    x REAL,
+
+    y REAL,
+
+    z REAL,
+
+    PRIMARY KEY(projection_id, chunk_id),
+
+    FOREIGN KEY(projection_id)
+        REFERENCES projections(id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY(chunk_id)
+        REFERENCES chunks(id)
+        ON DELETE CASCADE
+
+);
+
+CREATE TABLE clusterings (
+
+    id INTEGER PRIMARY KEY,
+
+    algorithm TEXT NOT NULL,
+
+    model TEXT NOT NULL,
+
+    parameters TEXT,
+
+    created_at TEXT NOT NULL
+
+);
+
+CREATE TABLE cluster_members (
+
+    clustering_id INTEGER NOT NULL,
+
+    chunk_id INTEGER NOT NULL,
+
+    cluster INTEGER NOT NULL,
+
+    probability REAL,
+
+    PRIMARY KEY(clustering_id, chunk_id),
+
+    FOREIGN KEY(clustering_id)
+        REFERENCES clusterings(id)
+        ON DELETE CASCADE,
+
+    FOREIGN KEY(chunk_id)
+        REFERENCES chunks(id)
+        ON DELETE CASCADE
+
+);
+
+CREATE TABLE semantic_graphs (
+
+    id INTEGER PRIMARY KEY,
+
+    algorithm TEXT,
+
+    k INTEGER,
+
+    threshold REAL,
+
+    model TEXT,
+
+    created_at TEXT
+
+);
+
+CREATE TABLE semantic_edges (
+
+    graph_id INTEGER,
+
+    source_chunk INTEGER,
+
+    target_chunk INTEGER,
+
+    similarity REAL,
+
+    PRIMARY KEY(
+        graph_id,
+        source_chunk,
+        target_chunk
+    ),
+
+    FOREIGN KEY(graph_id)
+        REFERENCES semantic_graphs(id)
+        ON DELETE CASCADE
+);
+
+CREATE TABLE embedding_snapshots (
+
+    id INTEGER PRIMARY KEY,
+
+    run_id INTEGER,
+
+    projection_id INTEGER,
+
+    created_at TEXT
 );
 
 -- Log simples de execuções de indexação, útil pra debugar / ver histórico.
@@ -51,3 +191,26 @@ CREATE TABLE IF NOT EXISTS index_runs (
     chunks_embedded INTEGER,
     model         TEXT
 );
+
+CREATE TABLE metadata (
+
+    key TEXT PRIMARY KEY,
+
+    value TEXT NOT NULL
+
+);
+
+CREATE INDEX idx_embeddings_model
+ON embeddings(model);
+
+CREATE INDEX idx_projection_points_projection
+ON projection_points(projection_id);
+
+CREATE INDEX idx_cluster_members_cluster
+ON cluster_members(cluster);
+
+CREATE INDEX idx_semantic_edges_source
+ON semantic_edges(source_chunk);
+
+CREATE INDEX idx_semantic_edges_target
+ON semantic_edges(target_chunk);
