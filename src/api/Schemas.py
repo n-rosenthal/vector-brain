@@ -4,7 +4,7 @@ Modelos Pydantic pra request/response da API.
 
 from __future__ import annotations
 
-from typing import Optional
+from typing import Optional, Any
 
 from pydantic import BaseModel, Field
 
@@ -124,3 +124,71 @@ class HealthStatus(BaseModel):
     orgbrain_db_found: bool
     org_roam_db_path: str
     orgbrain_db_path: str
+
+
+# ============================================================
+# Projections
+# ============================================================
+class ProjectionPointOut(BaseModel):
+
+    chunk_id: int
+
+    node_id: str
+
+    title: str
+
+    file: str
+
+    x: float
+
+    y: float
+
+    z: float | None = None
+
+    attributes: dict[str, Any] = Field(default_factory=dict)
+
+
+class ProjectionOut(BaseModel):
+
+    algorithm: str
+
+    dimensions: int
+
+    revision: str
+
+    generated_at: str
+
+    total_points: int
+
+    points: list[ProjectionPointOut]
+
+
+class ProjectionStatistics(BaseModel):
+
+    algorithm: str
+
+    revision: str
+
+    total_points: int
+
+    x_min: float
+    x_max: float
+
+    y_min: float
+    y_max: float
+
+    z_min: float | None = None
+    z_max: float | None = None
+
+
+class ProjectionAlgorithmOut(BaseModel):
+
+    name: str
+
+    supports_2d: bool
+
+    supports_3d: bool
+
+    deterministic: bool
+    
+    

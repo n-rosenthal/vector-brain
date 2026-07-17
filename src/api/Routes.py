@@ -13,6 +13,7 @@ import numpy as np
 
 from .. import config
 from ..searching.Search import load_all_embeddings, search_core
+from ..projections.ProjectionService import ProjectionService
 from .Dependencies import get_orgbrain_conn, get_embedding_model
 from .Schemas import (
     ChunkOut,
@@ -30,6 +31,12 @@ from .Schemas import (
     SimilarityQuery,
     SimilarityResult,
     TagCount,
+    
+    #   Projeções
+    ProjectionPointOut,
+    ProjectionOut,
+    ProjectionStatistics,
+    ProjectionAlgorithmOut,
 )
 
 from ..searching.Embeddings import (
@@ -263,4 +270,95 @@ def similarity_endpoint(
         cosine_similarity=similarity["cosine_similarity"],
         euclidean_distance=similarity["euclidean_distance"],
         dot_product=similarity["dot_product"],
+    )
+
+@router.get(
+    "/projection",
+    response_model=ProjectionOut,
+    tags=["projection"],
+)
+def projection(
+    algorithm: str = Query(
+        "pca",
+        description="pca | umap | tsne",
+    ),
+    dimensions: int = Query(
+        2,
+        ge=2,
+        le=3,
+    ),
+    conn: sqlite3.Connection = Depends(get_orgbrain_conn),
+):
+
+    service = ProjectionService(conn)
+
+    result = service.project(
+        algorithm=algorithm,
+        dimensions=dimensions,
+    )
+
+    return result
+
+@router.get(
+    "/projection/algorithms",
+    response_model=list[ProjectionAlgorithmOut],
+    tags=["projection"],
+)
+def projection_algorithms():
+
+    return [
+
+        ProjectionAlgorithmOut(
+            name="pca",
+            supports_2d=True,
+            supports_3d=True,
+            deterministic=True,
+        ),
+
+        ProjectionAlgorithmOut(
+            name="umap",
+            supports_2d=True,
+            supports_3d=True,
+            deterministic=False,
+        ),
+
+        ProjectionAlgorithmOut(
+            name="tsne",
+            supports_2d=True,
+            supports_3d=True,
+            deterministic=False,
+        ),
+    ]
+    
+@router.get(
+    "/projection/statistics",
+    response_model=ProjectionStatistics,
+    tags=["projection"],
+)
+def projection_statistics(
+    conn: sqlite3.Connection = Depends(get_orgbrain_conn),
+):
+
+    service = ProjectionService(conn)
+
+    result = service.project()
+
+    xs = [p.x for p in result.points]
+    ys = [p.y for p in result.points]
+
+    return ProjectionStatistics(
+
+        algorithm=result.algorithm,
+
+        revision=result.revision,
+
+        total_points=result.total_points,
+
+        x_min=min(xs),
+
+        x_max=max(xs),
+
+        y_min=min(ys),
+
+        y_max=max(ys),
     )

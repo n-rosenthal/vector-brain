@@ -224,6 +224,38 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -305,6 +337,14 @@
         "documentation": {}
     },
     {
+        "label": "lru_cache",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -346,6 +386,30 @@
         "documentation": {}
     },
     {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
@@ -368,6 +432,14 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
         "documentation": {}
     },
     {
@@ -418,6 +490,55 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "PCA",
+        "importPath": "sklearn.decomposition",
+        "description": "sklearn.decomposition",
+        "isExtraImport": true,
+        "detail": "sklearn.decomposition",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
         "documentation": {}
     },
     {
@@ -692,6 +813,33 @@
         "documentation": {}
     },
     {
+        "label": "projection",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def projection(\n    algorithm: str = Query(\n        \"pca\",\n        description=\"pca | umap | tsne\",\n    ),\n    dimensions: int = Query(\n        2,\n        ge=2,\n        le=3,\n    ),",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "projection_algorithms",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def projection_algorithms():\n    return [\n        ProjectionAlgorithmOut(\n            name=\"pca\",\n            supports_2d=True,\n            supports_3d=True,\n            deterministic=True,\n        ),\n        ProjectionAlgorithmOut(\n            name=\"umap\",",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
+        "label": "projection_statistics",
+        "kind": 2,
+        "importPath": "src.api.Routes",
+        "description": "src.api.Routes",
+        "peekOfCode": "def projection_statistics(\n    conn: sqlite3.Connection = Depends(get_orgbrain_conn),\n):\n    service = ProjectionService(conn)\n    result = service.project()\n    xs = [p.x for p in result.points]\n    ys = [p.y for p in result.points]\n    return ProjectionStatistics(\n        algorithm=result.algorithm,\n        revision=result.revision,",
+        "detail": "src.api.Routes",
+        "documentation": {}
+    },
+    {
         "label": "router",
         "kind": 5,
         "importPath": "src.api.Routes",
@@ -831,7 +979,43 @@
         "kind": 6,
         "importPath": "src.api.Schemas",
         "description": "src.api.Schemas",
-        "peekOfCode": "class HealthStatus(BaseModel):\n    status: str\n    org_roam_db_found: bool\n    orgbrain_db_found: bool\n    org_roam_db_path: str\n    orgbrain_db_path: str",
+        "peekOfCode": "class HealthStatus(BaseModel):\n    status: str\n    org_roam_db_found: bool\n    orgbrain_db_found: bool\n    org_roam_db_path: str\n    orgbrain_db_path: str\n# ============================================================\n# Projections\n# ============================================================\nclass ProjectionPointOut(BaseModel):",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionPointOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class ProjectionPointOut(BaseModel):\n    chunk_id: int\n    node_id: str\n    title: str\n    file: str\n    x: float\n    y: float\n    z: float | None = None\n    attributes: dict[str, Any] = Field(default_factory=dict)\nclass ProjectionOut(BaseModel):",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class ProjectionOut(BaseModel):\n    algorithm: str\n    dimensions: int\n    revision: str\n    generated_at: str\n    total_points: int\n    points: list[ProjectionPointOut]\nclass ProjectionStatistics(BaseModel):\n    algorithm: str\n    revision: str",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionStatistics",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class ProjectionStatistics(BaseModel):\n    algorithm: str\n    revision: str\n    total_points: int\n    x_min: float\n    x_max: float\n    y_min: float\n    y_max: float\n    z_min: float | None = None\n    z_max: float | None = None",
+        "detail": "src.api.Schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionAlgorithmOut",
+        "kind": 6,
+        "importPath": "src.api.Schemas",
+        "description": "src.api.Schemas",
+        "peekOfCode": "class ProjectionAlgorithmOut(BaseModel):\n    name: str\n    supports_2d: bool\n    supports_3d: bool\n    deterministic: bool",
         "detail": "src.api.Schemas",
         "documentation": {}
     },
@@ -959,6 +1143,60 @@
         "description": "src.indexing.Indexer",
         "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument(\"--force\", action=\"store_true\", help=\"reembeda tudo, ignora cache de hash\")\n    parser.add_argument(\"--limit\", type=int, default=None,\n                         help=\"indexa só os N primeiros nodes (pra testar antes de rodar na base inteira)\")\n    args = parser.parse_args()\n    from sentence_transformers import SentenceTransformer\n    print(f\"Carregando modelo {config.EMBEDDING_MODEL}...\")\n    model = SentenceTransformer(config.EMBEDDING_MODEL)\n    roam_conn = connect_readonly(config.ORG_ROAM_DB)",
         "detail": "src.indexing.Indexer",
+        "documentation": {}
+    },
+    {
+        "label": "BaseProjector",
+        "kind": 6,
+        "importPath": "src.projections.BaseProjector",
+        "description": "src.projections.BaseProjector",
+        "peekOfCode": "class BaseProjector(ABC):\n    \"\"\"\n    Interface comum para todos os algoritmos de projeção.\n    Exemplos\n    --------\n    PCAProjector\n    UMAPProjector\n    TSNEProjector\n    \"\"\"\n    def __init__(",
+        "detail": "src.projections.BaseProjector",
+        "documentation": {}
+    },
+    {
+        "label": "PCAProjector",
+        "kind": 6,
+        "importPath": "src.projections.PCAProjector",
+        "description": "src.projections.PCAProjector",
+        "peekOfCode": "class PCAProjector(BaseProjector):\n    \"\"\"\n    Projetor utilizando Principal Component Analysis.\n    \"\"\"\n    def __init__(\n        self,\n        dimensions: int = 2,\n        whiten: bool = False,\n        random_state: int | None = 42,\n    ):",
+        "detail": "src.projections.PCAProjector",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionCache",
+        "kind": 6,
+        "importPath": "src.projections.ProjectionCache",
+        "description": "src.projections.ProjectionCache",
+        "peekOfCode": "class ProjectionCache:\n    \"\"\"\n    Cache persistente das projeções.\n    \"\"\"\n    def __init__(self, conn: sqlite3.Connection):\n        self.conn = conn\n        self._create_tables()\n    # --------------------------------------------------------\n    # Schema\n    # --------------------------------------------------------",
+        "detail": "src.projections.ProjectionCache",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionPoint",
+        "kind": 6,
+        "importPath": "src.projections.ProjectionService",
+        "description": "src.projections.ProjectionService",
+        "peekOfCode": "class ProjectionPoint:\n    chunk_id: int\n    node_id: str\n    title: str\n    file: str\n    x: float\n    y: float\n    z: float | None = None\n@dataclass(slots=True)\nclass ProjectionResult:",
+        "detail": "src.projections.ProjectionService",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionResult",
+        "kind": 6,
+        "importPath": "src.projections.ProjectionService",
+        "description": "src.projections.ProjectionService",
+        "peekOfCode": "class ProjectionResult:\n    algorithm: str\n    dimensions: int\n    revision: str\n    generated_at: str\n    total_points: int\n    points: list[ProjectionPoint]\n# ============================================================\n# Serviço\n# ============================================================",
+        "detail": "src.projections.ProjectionService",
+        "documentation": {}
+    },
+    {
+        "label": "ProjectionService",
+        "kind": 6,
+        "importPath": "src.projections.ProjectionService",
+        "description": "src.projections.ProjectionService",
+        "peekOfCode": "class ProjectionService:\n    def __init__(\n        self,\n        conn: sqlite3.Connection,\n    ):\n        self.conn = conn\n        self.cache = ProjectionCache(conn)\n    # --------------------------------------------------------\n    def _revision(self) -> str:\n        \"\"\"",
+        "detail": "src.projections.ProjectionService",
         "documentation": {}
     },
     {

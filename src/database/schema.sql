@@ -200,6 +200,30 @@ CREATE TABLE metadata (
 
 );
 
+CREATE TABLE IF NOT EXISTS projection_cache (
+
+    cache_key TEXT PRIMARY KEY,
+
+    revision TEXT NOT NULL,
+
+    algorithm TEXT NOT NULL,
+
+    dimensions INTEGER NOT NULL,
+
+    parameters TEXT NOT NULL,
+
+    projection BLOB NOT NULL,
+
+    created_at TEXT NOT NULL
+
+);
+
+CREATE INDEX IF NOT EXISTS idx_projection_cache_revision
+ON projection_cache(revision);
+
+CREATE INDEX IF NOT EXISTS idx_projection_cache_algorithm
+ON projection_cache(algorithm);
+
 CREATE INDEX idx_embeddings_model
 ON embeddings(model);
 
